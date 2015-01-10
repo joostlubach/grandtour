@@ -1,0 +1,57 @@
+2015/01/10 15:12:14 [error] 76906#0: *7 open() "/Users/joost/Work/Projects/G+J/GrandTour/www/slkdfjdsf.html" failed (2: No such file or directory), client: 127.0.0.1, server: grandtour.dev, request: "GET /slkdfjdsf.html HTTP/1.1", host: "grandtour.dev"
+2015/01/10 15:12:26 [error] 76906#0: *8 open() "/Users/joost/Work/Projects/G+J/GrandTour/www/slkdfjdsf.html" failed (2: No such file or directory), client: 127.0.0.1, server: grandtour.dev, request: "GET /slkdfjdsf.html HTTP/1.1", host: "grandtour.dev"
+2015/01/10 15:12:27 [error] 76906#0: *9 open() "/Users/joost/Work/Projects/G+J/GrandTour/www/slkdfjdsf.html" failed (2: No such file or directory), client: 127.0.0.1, server: grandtour.dev, request: "GET /slkdfjdsf.html HTTP/1.1", host: "grandtour.dev"
+2015/01/10 15:14:49 [error] 78982#0: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/blabla" (looked into: /Users/joost/Work/Projects/G+J/GrandTour/www/../twig).' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/blabla')
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(265): Twig_Loader_Filesystem->getCacheKey('/blabla')
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(323): Twig_Environment->getTemplateClass('/blabla', NULL)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/blabla')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(14): Twig_Environment->render('/blabla')
+#5 {main}
+  thrown in /Users/joost/Work/Projects/G+J/GrandTou" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /blabla HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/10 15:17:13 [error] 78982#0: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/index.html" (looked into: /Users/joost/Work/Projects/G+J/GrandTour/www/../twig).' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/index.html')
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(265): Twig_Loader_Filesystem->getCacheKey('/index.html')
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(323): Twig_Environment->getTemplateClass('/index.html', NULL)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/index.html')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(15): Twig_Environment->render('/index.html')
+#5 {main}
+  thrown in /Users/joost/Wo" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/10 15:17:15 [error] 78982#0: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/index.html" (looked into: /Users/joost/Work/Projects/G+J/GrandTour/www/../twig).' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/index.html')
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(265): Twig_Loader_Filesystem->getCacheKey('/index.html')
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(323): Twig_Environment->getTemplateClass('/index.html', NULL)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/index.html')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(15): Twig_Environment->render('/index.html')
+#5 {main}
+  thrown in /Users/joost/Wo" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/10 15:17:31 [error] 78982#0: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/index.html" (looked into: /Users/joost/Work/Projects/G+J/GrandTour/twig).' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/index.html')
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(265): Twig_Loader_Filesystem->getCacheKey('/index.html')
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(323): Twig_Environment->getTemplateClass('/index.html', NULL)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/index.html')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(15): Twig_Environment->render('/index.html')
+#5 {main}
+  thrown in /Users/joost/Work/Proj" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/10 15:17:35 [error] 78982#0: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/index.html" (looked into: /Users/joost/Work/Projects/G+J/GrandTour/www/../twig).' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/index.html')
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(265): Twig_Loader_Filesystem->getCacheKey('/index.html')
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(323): Twig_Environment->getTemplateClass('/index.html', NULL)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/index.html')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(15): Twig_Environment->render('/index.html')
+#5 {main}
+  thrown in /Users/joost/Wo" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/10 15:17:46 [error] 78982#0: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/index.html" (looked into: /Users/joost/Work/Projects/G+J/GrandTour/www/../twig).' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:191
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(138): Twig_Loader_Filesystem->findTemplate('/index.html')
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(265): Twig_Loader_Filesystem->getCacheKey('/index.html')
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(323): Twig_Environment->getTemplateClass('/index.html', NULL)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/index.html')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(15): Twig_Environment->render('/index.html')
+#5 {main}
+  thrown in /Users/joost/Wo" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
