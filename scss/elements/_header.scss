@@ -3,11 +3,20 @@
   @extend .inverted;
 
   background-size: cover;
+  background-position: center center;
   background-repeat: none;
 
   // Ensure aspect ratio of header image.
   padding-top: 59.4976452%;
   position: relative;
+
+  // When the screen is wider, cap the height.
+  @include breakpoint($layout-width-px, min) {
+    padding-top: 0;
+    height: emCalc($layout-width-px * 9 / 16);
+  }
+
+  margin-bottom: $huge-space;
 
   .overlay {
     @include fill;

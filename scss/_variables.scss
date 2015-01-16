@@ -16,9 +16,15 @@ $red: #d92a26;
   top: 0; left: 0; right: 0; bottom: 0;
 }
 
-@mixin breakpoint($size) {
-  @media screen and (max-width: $size) {
-    @content
+@mixin breakpoint($size, $max-min: max) {
+  @if $max-min == max {
+    @media screen and (max-width: $size) {
+      @content
+    }
+  } @else {
+    @media screen and (min-width: $size) {
+      @content
+    }
   }
 }
 
