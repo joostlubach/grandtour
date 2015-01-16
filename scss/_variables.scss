@@ -1,0 +1,33 @@
+$fg-clr: #333;
+$inv-fg-clr: white;
+
+$small-space: 1em;
+$large-space: 2em;
+$huge-space:  3em;
+
+$base-font-size: 14px;
+
+$layout-width-px: 800px;
+
+$red: #d92a26;
+
+@mixin fill {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+@mixin breakpoint($size) {
+  @media screen and (max-width: $size) {
+    @content
+  }
+}
+
+@function emCalc($width-px, $base-size: $base-font-size) {
+  @return $width-px / $base-font-size * 1em;
+}
+
+@mixin flex-row($align: center) {
+  @include display-flex;
+  @include flex-direction(row);
+  @include align-items($align);
+}

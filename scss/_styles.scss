@@ -1,0 +1,81 @@
+body, input, select {
+  font-family: Helvetica Neue;
+  font-weight: 300;
+
+  color: $fg-clr;
+  font-size: $base-font-size;
+}
+
+main {
+  max-width: emCalc($layout-width-px);
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.6em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+.inverted {
+  color: $inv-fg-clr;
+}
+
+.masthead {
+  text-align: center;
+  margin: $huge-space;
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+  }
+  h4 {
+    font-style: italic;
+    font-family: Georgia, Cambria, Times New Roman, serif;
+  }
+}
+
+// Hide only visually, but have it available for screenreaders: h5bp.com/v
+.vh {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  // Extends the .visuallyhidden class to allow the element to be focusable
+  // when navigated to via the keyboard: h5bp.com/p
+  &.focusable:active,
+  &.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+
+// Hide text content visually.
+.hide-text {
+  display: inline-block;
+  text-indent: -9999px;
+}

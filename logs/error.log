@@ -55,3 +55,19 @@ Stack trace:
 #4 /Users/joost/Work/Projects/G+J/GrandTour/www/index.php(15): Twig_Environment->render('/index.html')
 #5 {main}
   thrown in /Users/joost/Wo" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/14 10:25:49 [error] 6428#0: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown tag name "extend". Did you mean "extends" in "/pages/home.html.twig" at line 1' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Parser.php:182
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(331): Twig_Environment->compileSource('{% extend 'base...', '/pages/home.htm...')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/pages/home.htm...')
+#5 /Users/joost/Work/Projects/G+J/Gra" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /home.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/14 10:25:55 [error] 6428#0: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown tag name "extend". Did you mean "extends" in "/pages/home.html.twig" at line 1' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Parser.php:182
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(331): Twig_Environment->compileSource('{% extend 'base...', '/pages/home.htm...')
+#4 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/pages/home.htm...')
+#5 /Users/joost/Work/Projects/G+J/Gra" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /home.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"

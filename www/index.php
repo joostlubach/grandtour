@@ -10,10 +10,10 @@ $twig = new Twig_Environment($loader);
 $path = preg_replace('|^(?:/.*?\.php)(.*)$|', '$1', $_SERVER['REQUEST_URI']);
 
 try {
-  echo $twig->render("$path.twig");
+  echo $twig->render("/pages$path.twig");
 } catch (Twig_Error_Loader $ex) {
   http_response_code(404);
-  echo "$path not found";
+  echo "Template pages/$path not found";
 }
 
 ?>

@@ -523,7 +523,15 @@
 			"file": "scss/all.scss",
 			"settings":
 			{
-				"buffer_size": 19,
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_misc.scss",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -638,10 +646,24 @@
 	"expanded_folders":
 	[
 		"/Users/joost/Work/Projects/G+J/GrandTour",
-		"/Users/joost/Work/Projects/G+J/GrandTour/config"
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www"
 	],
 	"file_history":
 	[
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/related.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/blocks.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/map.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/header.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/index.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www/index.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/config/compass.rb",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
+		"/Users/joost/Work/Projects/Wijnen/Config/sites/apiproxy",
+		"/Users/joost/Work/Projects/G+J/Config/sites/grandtour",
+		"/Users/joost/Work/Projects/G+J/GrandTour/GrandTour.sublime-project",
+		"/Users/joost/Work/Projects/G+J/GrandTour/composer.json",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/scss",
 		"/Users/joost/Work/Projects/Wijnen/ExampleData/example.php",
 		"/Users/joost/Work/Projects/Wijnen/ApiProxy/app/controllers/companies_controller.class.php",
@@ -757,23 +779,11 @@
 		"/Users/joost/Work/Projects/Wijnen/App/js/modules/receipt/module.js",
 		"/Users/joost/Work/Projects/Wijnen/App/js/modules/receipt/ReceiptController.js",
 		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.bundle.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.min.js",
-		"/Users/joost/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/joost/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/node-sass/src/libsass/base64vlq.cpp",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/gulp/completion/bash",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/mout/object/bindAll.js",
-		"/Users/joost/Work/Projects/Wijnen/App/gulpfile.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/templates/invoice.html",
-		"/Users/joost/Work/Projects/Wijnen/App/www/templates/app.html",
-		"/Users/joost/Work/Projects/Wijnen/App/www/js/app.js",
-		"/Users/joost/Work/Projects/Wijnen/App/config/compass.rb",
-		"/Users/joost/Work/Projects/Wijnen/App/config.rb"
+		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -915,6 +925,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"section",
 			"amount_net",
 			"company_id",
 			"vat_percentage",
@@ -1041,8 +1052,7 @@
 			"evenementen",
 			"Events",
 			"environ",
-			"screenName",
-			"Twitter"
+			"screenName"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1188,7 +1198,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1197,20 +1207,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19,
+						"buffer_size": 122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19,
-								19
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"_anf_new": "",
 							"codeintel": true,
 							"codeintel_config":
 							{
@@ -1237,13 +1246,10 @@
 									}
 								}
 							},
+							"codeintel_database_dir": "~/.codeintel",
 							"codeintel_enabled_languages":
 							[
 								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
 								"SCSS",
 								"Python",
 								"HTML",
@@ -1251,19 +1257,62 @@
 								"Python3",
 								"XML",
 								"Sass",
-								"XSLT",
-								"Django",
 								"HTML5",
 								"Perl",
 								"CSS",
 								"Twig",
 								"Less",
-								"Smarty",
 								"Node.js",
-								"Tcl",
 								"TemplateToolkit",
 								"PHP"
 							],
+							"codeintel_language_settings":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_exclude_dir":
+									[
+										"/build/",
+										"/min/"
+									],
+									"codeintel_scan_extra_dir":
+									[
+									],
+									"codeintel_scan_files_in_project": false,
+									"codeintel_selected_catalogs":
+									[
+										"jQuery"
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 15,
+									"codeintel_scan_exclude_dir":
+									[
+										"/Applications/MAMP/bin/php/php5.5.3/"
+									],
+									"codeintel_scan_extra_dir":
+									[
+									],
+									"codeintel_scan_files_in_project": true,
+									"php": "/Applications/MAMP/bin/php/php5.5.3/bin/php"
+								},
+								"Python3":
+								{
+									"codeintel_scan_extra_dir":
+									[
+										"/Applications/Sublime Text.app/Contents/MacOS",
+										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/arch",
+										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/libs"
+									],
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+									],
+									"python3": "/usr/local/bin/python3.3"
+								}
+							},
 							"codeintel_live": true,
 							"codeintel_live_enabled_languages":
 							[
@@ -1294,27 +1343,133 @@
 							],
 							"codeintel_max_recursive_dir_depth": 10,
 							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
+							[
+							],
 							"codeintel_scan_files_in_project": true,
 							"codeintel_selected_catalogs":
 							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
 							],
-							"codeintel_snippets": true,
+							"codeintel_snippets": false,
 							"codeintel_syntax_map":
 							{
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"codeintel_word_completions": "buffer",
 							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 16.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_misc.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"codeintel": true,
+							"codeintel_database_dir": "~/.codeintel",
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Node.js",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_language_settings":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_exclude_dir":
+									[
+										"/build/",
+										"/min/"
+									],
+									"codeintel_scan_extra_dir":
+									[
+									],
+									"codeintel_scan_files_in_project": false,
+									"codeintel_selected_catalogs":
+									[
+										"jQuery"
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 15,
+									"codeintel_scan_exclude_dir":
+									[
+										"/Applications/MAMP/bin/php/php5.5.3/"
+									],
+									"codeintel_scan_extra_dir":
+									[
+									],
+									"codeintel_scan_files_in_project": true,
+									"php": "/Applications/MAMP/bin/php/php5.5.3/bin/php"
+								},
+								"Python3":
+								{
+									"codeintel_scan_extra_dir":
+									[
+										"/Applications/Sublime Text.app/Contents/MacOS",
+										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/arch",
+										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/libs"
+									],
+									"codeintel_scan_files_in_project": true,
+									"codeintel_selected_catalogs":
+									[
+									],
+									"python3": "/usr/local/bin/python3.3"
+								}
+							},
+							"codeintel_live": true,
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							[
+							],
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"codeintel_word_completions": "buffer",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1381,6 +1536,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"compass",
+				"config/compass.rb"
+			],
+			[
+				"compass.rb",
+				"config/compass.rb"
+			],
 			[
 				"controller",
 				"lib/controller.class.php"
@@ -1884,14 +2047,6 @@
 			[
 				"pushbatch",
 				"src/Nos/Bundle/AdminBundle/Entity/PushBatch.php"
-			],
-			[
-				"pushservice",
-				"src/Nos/Bundle/AdminBundle/Services/PushService.php"
-			],
-			[
-				"broadcastuniquepost",
-				"src/Nos/Bundle/AdminBundle/Api/admin/posts/admin/broadcasts/unique/reset.post.json"
 			]
 		],
 		"width": 0.0
