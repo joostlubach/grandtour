@@ -1,0 +1,14 @@
+main {
+  max-width: $layout-max-width-px;
+  min-width: $layout-min-width-px;
+  margin: 0 auto;
+
+  > * {
+    margin-bottom: $huge-space;
+  }
+}
+
+main .title {
+  padding: 0 $large-space;
+  text-align: center;
+}

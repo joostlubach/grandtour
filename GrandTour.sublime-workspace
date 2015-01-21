@@ -520,18 +520,21 @@
 	"buffers":
 	[
 		{
-			"file": "scss/all.scss",
+			"contents": "{% extends 'base.html.twig' %}\n\n{% block body %}\n\n  {% include 'pages/home/header.html.twig' %}\n\n  <main>\n    <div class=\"title\">\n      <h1>Ontdek de Grand Tour</h1>\n      <h3>Een onvergetelijke rondreis door Zwitserland</h3>\n    </div>\n\n    {% include 'pages/home/map.html.twig' %}\n    {% include 'pages/home/blocks.html.twig' %}\n  </main>\n\n  {% include 'pages/home/related.html.twig' %}\n\n{% endblock %}",
+			"file": "twig/pages/wallis.html.twig",
+			"file_size": 0,
+			"file_write_time": 130663479870000000,
 			"settings":
 			{
-				"buffer_size": 122,
+				"buffer_size": 404,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scss/_misc.scss",
+			"file": "twig/pages/home.html.twig",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 404,
 				"line_ending": "Unix"
 			}
 		}
@@ -539,15 +542,15 @@
 	"build_system": "Packages/User/RubyGem.sublime-build",
 	"command_palette":
 	{
-		"height": 235.0,
+		"height": 400.0,
 		"selected_items":
 		[
 			[
-				"instlal",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
+				"instlal",
 				"Package Control: Install Package"
 			],
 			[
@@ -648,18 +651,39 @@
 		"/Users/joost/Work/Projects/G+J/GrandTour",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www"
 	],
 	"file_history":
 	[
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_preserves_safety_filters.test",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/two_word_operators_as_variables.test",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_pre_escape_filters.test",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Binary/EndsWith.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Binary/NotEqual.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/filters/nl2br.rst",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_header.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/header.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_related.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_blocks.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_layout.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/blocks.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/base.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www/css/all.css",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Call.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/filters/capitalize.rst",
+		"/Users/joost/Work/Projects/G+J/GrandTour/config/compass.rb",
+		"/Users/joost/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_misc.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/related.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/blocks.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/map.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/header.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/index.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/index.php",
-		"/Users/joost/Work/Projects/G+J/GrandTour/config/compass.rb",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
 		"/Users/joost/Work/Projects/Wijnen/Config/sites/apiproxy",
 		"/Users/joost/Work/Projects/G+J/Config/sites/grandtour",
 		"/Users/joost/Work/Projects/G+J/GrandTour/GrandTour.sublime-project",
@@ -683,7 +707,6 @@
 		"/Users/joost/Work/Projects/Wijnen/App/www/templates/login.html",
 		"/Users/joost/Work/Projects/Wijnen/App/js/modules/receipt/controllers.js",
 		"/Users/joost/Work/Projects/Wijnen/App/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-stream/node_modules/glob2base/node_modules/find-index/last.js",
-		"/Users/joost/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/scss/_form.scss",
 		"/Users/joost/Work/Projects/Wijnen/App/node_modules/node-sass/test/fixtures/spec/spec/libsass-todo-tests/bourbon/lib/css3/_placeholder.scss",
 		"/Users/joost/Work/Projects/Wijnen/App/js/utils/forms.js",
@@ -760,26 +783,7 @@
 		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/mout/array/lastIndexOf.js",
 		"/Users/joost/Work/Projects/Wijnen/App/js/utils/local_storage.js",
 		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/lru-cache/lib/lru-cache.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/js/ionic-angular.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/js/ionic-angular.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/js/ionic.bundle.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/js/ionic.bundle.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/js/ionic.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/js/ionic.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/js/ionic-angular.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/js/ionic-angular.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/js/ionic.bundle.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/js/ionic.bundle.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/js/ionic.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/js/ionic.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic-angular.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic-angular.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/js/all.js",
-		"/Users/joost/Work/Projects/Wijnen/App/js/modules/receipt/module.js",
-		"/Users/joost/Work/Projects/Wijnen/App/js/modules/receipt/ReceiptController.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.bundle.min.js",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.js"
+		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/lru-cache/lib/lru-cache.js"
 	],
 	"find":
 	{
@@ -925,6 +929,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"emCalc",
+			"@function \\$",
+			"emCalc",
+			"emCacl",
+			"function emCalc",
+			"@function emCalc",
+			"emCalc\\((.*?)\\)",
+			"emCalc",
+			"Default",
 			"section",
 			"amount_net",
 			"company_id",
@@ -1043,16 +1056,7 @@
 			"max_published_at",
 			"maxPublishedAt",
 			"item",
-			"live-streams",
-			"extend \\.green",
-			"green",
-			"add",
-			"EEEE",
-			"DateTime",
-			"evenementen",
-			"Events",
-			"environ",
-			"screenName"
+			"live-streams"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1060,6 +1064,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\\1",
 			"function (",
 			"nos_admin.top_stories.max_items",
 			"screen_name",
@@ -1186,8 +1191,7 @@
 			"PickerInput",
 			"CollectionInput",
 			"collection-input",
-			"disabled: field.disabled",
-			"text_input"
+			"disabled: field.disabled"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1198,285 +1202,68 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/all.scss",
+					"file": "twig/pages/wallis.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 122,
+						"buffer_size": 404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_database_dir": "~/.codeintel",
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Node.js",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_language_settings":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_exclude_dir":
-									[
-										"/build/",
-										"/min/"
-									],
-									"codeintel_scan_extra_dir":
-									[
-									],
-									"codeintel_scan_files_in_project": false,
-									"codeintel_selected_catalogs":
-									[
-										"jQuery"
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 15,
-									"codeintel_scan_exclude_dir":
-									[
-										"/Applications/MAMP/bin/php/php5.5.3/"
-									],
-									"codeintel_scan_extra_dir":
-									[
-									],
-									"codeintel_scan_files_in_project": true,
-									"php": "/Applications/MAMP/bin/php/php5.5.3/bin/php"
-								},
-								"Python3":
-								{
-									"codeintel_scan_extra_dir":
-									[
-										"/Applications/Sublime Text.app/Contents/MacOS",
-										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/arch",
-										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/libs"
-									],
-									"codeintel_scan_files_in_project": true,
-									"codeintel_selected_catalogs":
-									[
-									],
-									"python3": "/usr/local/bin/python3.3"
-								}
-							},
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							[
-							],
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-							],
-							"codeintel_snippets": false,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"codeintel_word_completions": "buffer",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 16.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/_misc.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								404,
+								404
 							]
 						],
 						"settings":
 						{
 							"_anf_new": "",
-							"codeintel": true,
-							"codeintel_database_dir": "~/.codeintel",
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Node.js",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_language_settings":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_exclude_dir":
-									[
-										"/build/",
-										"/min/"
-									],
-									"codeintel_scan_extra_dir":
-									[
-									],
-									"codeintel_scan_files_in_project": false,
-									"codeintel_selected_catalogs":
-									[
-										"jQuery"
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 15,
-									"codeintel_scan_exclude_dir":
-									[
-										"/Applications/MAMP/bin/php/php5.5.3/"
-									],
-									"codeintel_scan_extra_dir":
-									[
-									],
-									"codeintel_scan_files_in_project": true,
-									"php": "/Applications/MAMP/bin/php/php5.5.3/bin/php"
-								},
-								"Python3":
-								{
-									"codeintel_scan_extra_dir":
-									[
-										"/Applications/Sublime Text.app/Contents/MacOS",
-										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/arch",
-										"~/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/libs"
-									],
-									"codeintel_scan_files_in_project": true,
-									"codeintel_selected_catalogs":
-									[
-									],
-									"python3": "/usr/local/bin/python3.3"
-								}
-							},
-							"codeintel_live": true,
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							[
-							],
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-							],
-							"codeintel_snippets": false,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"codeintel_word_completions": "buffer",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "twig/pages/home.html.twig",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1537,6 +1324,30 @@
 		"selected_items":
 		[
 			[
+				"header.scss",
+				"scss/elements/_header.scss"
+			],
+			[
+				"headerscss",
+				"scss/elements/_header.scss"
+			],
+			[
+				"varia",
+				"scss/_variables.scss"
+			],
+			[
+				"blocksscs",
+				"scss/elements/_blocks.scss"
+			],
+			[
+				"blocks",
+				"twig/pages/home/blocks.html.twig"
+			],
+			[
+				"home.html",
+				"twig/pages/home.html.twig"
+			],
+			[
 				"compass",
 				"config/compass.rb"
 			],
@@ -1591,10 +1402,6 @@
 			[
 				"login",
 				"www/templates/login.html"
-			],
-			[
-				"home.html",
-				"www/templates/home.html"
 			],
 			[
 				"buttonscss",
@@ -2027,26 +1834,6 @@
 			[
 				"broad",
 				"src/Nos/Bundle/AdminBundle/Controller/BroadcastsController.php"
-			],
-			[
-				"broadcast",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Broadcasts/form.html.twig"
-			],
-			[
-				"broadcas",
-				"src/Nos/Bundle/AdminBundle/Controller/BroadcastsController.php"
-			],
-			[
-				"pushhist",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Alerts/push_history.html.twig"
-			],
-			[
-				"parameter",
-				"app/config/parameters.yml"
-			],
-			[
-				"pushbatch",
-				"src/Nos/Bundle/AdminBundle/Entity/PushBatch.php"
 			]
 		],
 		"width": 0.0
@@ -2056,6 +1843,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"admin",
+				"~/Work/Projects/NOS/admin.nos.nl/admin.nos.nl.sublime-project"
+			],
 			[
 				"mnos",
 				"~/Work/Projects/NOS/m.nos.nl/m.nos.nl.sublime-project"

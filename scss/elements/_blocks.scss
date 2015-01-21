@@ -1,0 +1,91 @@
+$block-width: 172px;
+$block-height: 190px;
+$blocks-width: $block-width * 3 + 4 * $large-space;
+
+#blocks {
+  @include clearfix;
+
+  width: $blocks-width;
+  margin: 0 auto;
+  padding-left: $large-space;
+
+  .block {
+    display: block;
+    float: left;
+    margin: 0 $large-space $large-space 0;
+
+    width: $block-width;
+    height: $block-height;
+  }
+
+  .banner {
+    background: #ccc;
+
+    @include flex-row;
+    @include justify-content(center);
+
+    @extend .inverted;
+    span {
+      @extend h2;
+      @extend .decorated;
+    }
+  }
+
+  .list {
+    position: relative;
+
+    background-size: cover;
+
+    @include flex-row;
+    @include justify-content(center);
+
+    @extend .inverted;
+
+    @extend .button;
+
+    span {
+      @extend h2;
+      text-align: center;
+
+      padding: $large-space;
+
+      background-image: radial-gradient(rgba(black, 0.3), rgba(black, 0), rgba(black, 0));
+    }
+    &:hover span {
+      background-image: radial-gradient(rgba($red, 0.3), rgba($red, 0), rgba($red, 0));
+    }
+
+    .shield {
+      position: absolute;
+      top: $small-space; right: $small-space;
+    }
+
+    &:hover .shield {
+      @extend :hover;
+    }
+
+  }
+
+  .block-large {
+    width: $block-width * 2 + $large-space;
+  }
+
+  @include breakpoint($blocks-width) {
+    width: $block-width * 2 + 3 * $large-space;
+  }
+  @include breakpoint($block-width * 2 + 3 * $large-space) {
+    padding: 0 $large-space;
+    width: auto;
+
+    .block {
+      float: none;
+      width: auto;
+      margin: 0 0 $large-space 0;
+    }
+
+    .block-large {
+      width: auto;
+    }
+  }
+
+}

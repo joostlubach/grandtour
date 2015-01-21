@@ -1,0 +1,67 @@
+#related {
+
+  @extend .inverted;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+
+  // Ensure aspect ratio of footer image.
+  padding-top: 51.7268446%;
+  position: relative;
+
+  @include breakpoint($layout-min-width-px) {
+    padding-top: 0;
+    width: $layout-min-width-px;
+    height: $layout-min-width-px * .517268446;
+  }
+
+
+  // When the screen is wider, cap the height.
+  @include breakpoint($layout-max-width-px, min) {
+    padding-top: 0;
+    height: $layout-max-width-px * .517268446;
+  }
+
+  .content {
+    position: absolute;
+    top: 20%; left: 10%;
+    width: 40%;
+
+    .label {
+      display: block;
+      margin-bottom: 0.4em;
+    }
+    h2 {
+      margin-bottom: 0.2em;
+    }
+    p {
+      line-height: 1.2em;
+    }
+
+    background: rgba($red, 0.9);
+    padding: $large-space;
+  }
+
+  .label {
+    @extend .decorated;
+  }
+
+  @include breakpoint(600px) {
+    .content {
+      font-size: 0.8em;
+      top: 15%; left: 8%;
+      width: 60%;
+    }
+  }
+
+  @include breakpoint(400px) {
+    .content {
+      top: $small-space; left: $small-space; right: $small-space; bottom: $small-space;
+      padding: $small-space;
+      font-size: 0.8em;
+      width: auto;
+    }
+  }
+
+}

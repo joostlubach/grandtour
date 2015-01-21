@@ -11,10 +11,9 @@ body, input, select {
   box-sizing: border-box;
 }
 
-main {
-  max-width: emCalc($layout-width-px);
-  min-width: 320px;
-  margin: 0 auto;
+.decorated {
+  font-style: italic;
+  font-family: Georgia, Cambria, Times New Roman, serif;
 }
 
 h1 {
@@ -25,9 +24,8 @@ h2 {
   font-size: 1.6em;
 }
 h3 {
+  @extend .decorated;
   font-size: 1.1em;
-  font-style: italic;
-  font-family: Georgia, Cambria, Times New Roman, serif;
 }
 
 a {
@@ -47,8 +45,6 @@ a.button:hover {
 }
 
 .title {
-  text-align: center;
-
   h1 {
     font-size: 2em;
     margin-bottom: 0.2em;

@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+  {%
+    embed 'pages/home/header.html.twig'
+    with { background_image: 'img/wallis-header-bg.jpg' } only
+  %}
+    {% block content %}
+      <select name="region" class="region">
+        <option>Kies een regio...</option>
+        <option selected>Wallis</option>
+        <option>Graubünden</option>
+        <option>Regio #3</option>
+        <option>Regio #4</option>
+      </select>
+
+        <div class="content">
+          <h1>Wallis</h1>
+          <h2>Natuur, zon en wijn</h2>
+          <p class="decorated">
+            Uitdagende vierduizenders als Jungfrau en Matterhorn in zowel het noorden als
+            het zuiden van het kanton, het prachtige en vruchtbare Rhônedal en de grootste
+            gletsjer van Europa. Wallis blinkt van het natuurschoon.
+          </p>
+        </div>
+    {% endblock %}
+
+    {% block bottom %}
+      <nav class="bottom sections">
+        <a href="#" class="">
+          <i class="shield40 shield40-scenery"></i>
+          <span>Zien</span>
+        </a>
+
+        <a href="#" class="">
+          <i class="shield40 shield40-food"></i>
+          <span>Eten</span>
+        </a>
+
+        <a href="#" class="">
+          <i class="shield40 shield40-sites"></i>
+          <span>Doen</span>
+        </a>
+
+        <a href="#" class="selected">
+          <i class="shield40 shield40-lodging"></i>
+          <span>Slapen</span>
+        </a>
+      </nav>
+    {% endblock %}
+  {% endembed %}
+
+  <main style="height: 500px;">
+  </main>
+
+  {% include 'pages/home/related.html.twig' %}
+
+{% endblock %}

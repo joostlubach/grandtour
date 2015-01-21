@@ -2,7 +2,38 @@
 
 {% block body %}
 
-  {% include 'pages/home/header.html.twig' %}
+  {%
+    embed 'pages/home/header.html.twig'
+    with { background_image: 'img/home-header-bg.jpg' } only
+  %}
+    {% block content %}
+      <div class="content">
+        <h1>Grand Tour</h1>
+        <h2>Alle hotspots langs de route</h2>
+        <p>
+          Verbonden door 1600 kilometer van de mooiste Zwitserse wegen passeer je op de
+          Grand Tour 19 betoverende meren, 5 spectaculaire bergpassen en 10
+          Unesco-werelderfgoederen.
+        </p>
+
+        <select name="region">
+          <option>Kies een regio...</option>
+          <option>Wallis</option>
+          <option>Graubünden</option>
+          <option>Regio #3</option>
+          <option>Regio #4</option>
+        </select>
+      </div>
+    {% endblock %}
+
+    {% block bottom %}
+      <nav class="bottom">
+        <div class="grandtour-logo">
+          Grand Tour
+        </div>
+      </nav>
+    {% endblock %}
+  {% endembed %}
 
   <main>
     <div class="title">
@@ -12,7 +43,8 @@
 
     {% include 'pages/home/map.html.twig' %}
     {% include 'pages/home/blocks.html.twig' %}
-    {% include 'pages/home/related.html.twig' %}
   </main>
+
+  {% include 'pages/home/related.html.twig' %}
 
 {% endblock %}

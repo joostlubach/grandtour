@@ -71,3 +71,11 @@ Stack trace:
 #3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(331): Twig_Environment->compileSource('{% extend 'base...', '/pages/home.htm...')
 #4 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('/pages/home.htm...')
 #5 /Users/joost/Work/Projects/G+J/Gra" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /home.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"
+2015/01/21 22:35:34 [error] 1815#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected token "end of template" of value "" ("end of statement block" expected) in "pages/home/header.html.twig" at line 41' in /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/TokenStream.php:88
+Stack trace:
+#0 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/TokenParser/Block.php(58): Twig_TokenStream->expect(3)
+#1 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#2 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#3 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /Users/joost/Work/Projects/G+J/GrandTour/" while reading response header from upstream, client: 127.0.0.1, server: grandtour.dev, request: "GET /home.html HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "grandtour.dev"

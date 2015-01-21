@@ -1,13 +1,14 @@
 $fg-clr: #333;
 $inv-fg-clr: white;
 
-$small-space: 1em;
-$large-space: 2em;
-$huge-space:  3em;
+$small-space: 10px;
+$large-space: 20px;
+$huge-space:  30px;
 
 $base-font-size: 14px;
 
-$layout-width-px: 800px;
+$layout-max-width-px: 800px;
+$layout-min-width-px: 320px;
 
 $red: #d92a26;
 
@@ -28,12 +29,19 @@ $red: #d92a26;
   }
 }
 
-@function emCalc($width-px, $base-size: $base-font-size) {
-  @return $width-px / $base-font-size * 1em;
-}
-
 @mixin flex-row($align: center) {
   @include display-flex;
   @include flex-direction(row);
   @include align-items($align);
+}
+@mixin flex-col($align: center) {
+  @include display-flex;
+  @include flex-direction(column);
+  @include align-items($align);
+}
+
+@mixin retina {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content
+  }
 }

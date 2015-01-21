@@ -1,0 +1,93 @@
+.shield {
+  background-image: url(../img/shields32.png);
+  @include retina {
+    background-image: url(../img/shields32@2x.png);
+    background-size: auto 128px;
+  }
+
+  width: 32px; height: 32px;
+}
+
+.shield-sites {
+  background-position: 0 0;
+  &:hover {
+    background-position: 0 -32px;
+  }
+}
+.shield-food {
+  background-position: -32px 0;
+  &:hover {
+    background-position: -32px -32px;
+  }
+}
+.shield-scenery {
+  background-position: -64px 0;
+  &:hover {
+    background-position: -64px -32px;
+  }
+}
+.shield-lodging {
+  background-position: -96px 0;
+  &:hover {
+    background-position: -96px -32px;
+  }
+}
+
+.shield40 {
+  background-image: url(../img/shields40.png);
+  @include retina {
+    background-image: url(../img/shields40@2x.png);
+    background-size: auto 192px;
+  }
+
+  width: 40px; height: 40px;
+}
+
+.shield40-sites {
+  background-position: 0 0;
+  &:hover {
+    background-position: 0 -40px;
+  }
+  &.red {
+    background-position: 0 -80px;
+  }
+  &.red:hover {
+    background-position: 0 -120px;
+  }
+}
+.shield40-food {
+  background-position: -40px 0;
+  &:hover {
+    background-position: -40px -40px;
+  }
+  &.red {
+    background-position: -40px -80px;
+  }
+  &.red:hover {
+    background-position: -40px -120px;
+  }
+}
+.shield40-scenery {
+  background-position: -80px 0;
+  &:hover {
+    background-position: -80px -40px;
+  }
+  &.red {
+    background-position: -80px -80px;
+  }
+  &.red:hover {
+    background-position: -80px -120px;
+  }
+}
+.shield40-lodging {
+  background-position: -120px 0;
+  &:hover {
+    background-position: -120px -40px;
+  }
+  &.red {
+    background-position: -120px -80px;
+  }
+  &.red:hover {
+    background-position: -120px -120px;
+  }
+}
