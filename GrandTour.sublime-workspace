@@ -520,21 +520,66 @@
 	"buffers":
 	[
 		{
-			"contents": "{% extends 'base.html.twig' %}\n\n{% block body %}\n\n  {% include 'pages/home/header.html.twig' %}\n\n  <main>\n    <div class=\"title\">\n      <h1>Ontdek de Grand Tour</h1>\n      <h3>Een onvergetelijke rondreis door Zwitserland</h3>\n    </div>\n\n    {% include 'pages/home/map.html.twig' %}\n    {% include 'pages/home/blocks.html.twig' %}\n  </main>\n\n  {% include 'pages/home/related.html.twig' %}\n\n{% endblock %}",
 			"file": "twig/pages/wallis.html.twig",
-			"file_size": 0,
-			"file_write_time": 130663479870000000,
 			"settings":
 			{
-				"buffer_size": 404,
+				"buffer_size": 1740,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "twig/pages/home.html.twig",
+			"file": "twig/pages/wallis/map.html.twig",
 			"settings":
 			{
-				"buffer_size": 404,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig/pages/wallis/list.html.twig",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig/pages/wallis/blocks.html.twig",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/elements/_blocks.scss",
+			"settings":
+			{
+				"buffer_size": 1716,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_styles.scss",
+			"settings":
+			{
+				"buffer_size": 1302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/elements/_header.scss",
+			"settings":
+			{
+				"buffer_size": 3255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig/pages/home/blocks.html.twig",
+			"settings":
+			{
+				"buffer_size": 1411,
 				"line_ending": "Unix"
 			}
 		}
@@ -650,28 +695,38 @@
 	[
 		"/Users/joost/Work/Projects/G+J/GrandTour",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www"
 	],
 	"file_history":
 	[
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/header.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/related.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www/icons/style.css",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_styles.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/SetTemp.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_header.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www/icons/selection.json",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_filters_arguments.test",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www/css/all.css",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_preserves_safety_filters.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/two_word_operators_as_variables.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_pre_escape_filters.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Binary/EndsWith.php",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Binary/NotEqual.php",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/filters/nl2br.rst",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_header.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/header.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_related.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_blocks.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_layout.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/blocks.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/base.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/www/css/all.css",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Call.php",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/filters/capitalize.rst",
 		"/Users/joost/Work/Projects/G+J/GrandTour/config/compass.rb",
@@ -775,15 +830,7 @@
 		"/Users/joost/Work/Projects/Wijnen/App/js/utils/local-storage.js",
 		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap",
 		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/CordovaLib/CordovaLib_Prefix.pch",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/gulp/node_modules/liftoff/node_modules/resolve/lib/caller.js",
-		"/Users/joost/Work/Projects/Wijnen/App/plugins/org.apache.cordova.camera/src/android/CameraLauncher.java",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/mout/lang/ctorApply.js",
-		"/Users/joost/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/joost/Work/Projects/Wijnen/App/js/core.js",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/mout/array/lastIndexOf.js",
-		"/Users/joost/Work/Projects/Wijnen/App/js/utils/local_storage.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/lru-cache/lib/lru-cache.js"
+		"/Users/joost/Work/Projects/Wijnen/App/node_modules/gulp/node_modules/liftoff/node_modules/resolve/lib/caller.js"
 	],
 	"find":
 	{
@@ -929,6 +976,25 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"0.4",
+			"48",
+			"144",
+			"96",
+			"48",
+			"black",
+			" shield48-black",
+			"96px",
+			"64px",
+			"shield",
+			".shield",
+			"0",
+			"-64px",
+			"0",
+			"32px",
+			"32",
+			"button",
+			"side-menu",
+			"overlay",
 			"emCalc",
 			"@function \\$",
 			"emCalc",
@@ -1037,26 +1103,7 @@
 			"title",
 			"featured",
 			"announcements",
-			"featured",
-			"            $newsletter = $this->get('doctrine')->getRepository('NosAdminBundle:Newsletter')->find($id);\n\n",
-			"getItem",
-			"$content['top_story']",
-			"Frontpage",
-			"$this",
-			"livequery",
-			"$(this)",
-			"live-streams",
-			"broadcasts/annotated",
-			"broadcasts\\/annotated",
-			"id",
-			"EEEE",
-			"moment\\(",
-			"moment\\(\\)\\.",
-			"moment\\(\\)",
-			"max_published_at",
-			"maxPublishedAt",
-			"item",
-			"live-streams"
+			"featured"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1064,6 +1111,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"left-side",
 			"\\1",
 			"function (",
 			"nos_admin.top_stories.max_items",
@@ -1190,8 +1238,7 @@
 			"association-input",
 			"PickerInput",
 			"CollectionInput",
-			"collection-input",
-			"disabled: field.disabled"
+			"collection-input"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1202,7 +1249,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1211,15 +1258,103 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 404,
+						"buffer_size": 1740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								404,
-								404
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "twig/pages/wallis/map.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "twig/pages/wallis/list.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "twig/pages/wallis/blocks.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
 							]
 						],
 						"settings":
@@ -1233,16 +1368,106 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/elements/_blocks.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/_styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "scss/elements/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "twig/pages/home.html.twig",
+					"buffer": 7,
+					"file": "twig/pages/home/blocks.html.twig",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 404,
+						"buffer_size": 1411,
 						"regions":
 						{
 						},
@@ -1250,7 +1475,7 @@
 						[
 							[
 								0,
-								404
+								1411
 							]
 						],
 						"settings":
@@ -1263,7 +1488,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1324,6 +1549,46 @@
 		"selected_items":
 		[
 			[
+				"header.scs",
+				"scss/elements/_header.scss"
+			],
+			[
+				"style.scss",
+				"scss/_styles.scss"
+			],
+			[
+				"blocksscs",
+				"scss/elements/_blocks.scss"
+			],
+			[
+				"blocksscss",
+				"scss/elements/_blocks.scss"
+			],
+			[
+				"shieldsscs",
+				"scss/elements/_shields.scss"
+			],
+			[
+				"headerht",
+				"twig/pages/home/header.html.twig"
+			],
+			[
+				"wallis",
+				"twig/pages/wallis.html.twig"
+			],
+			[
+				"headertml",
+				"twig/pages/home/header.html.twig"
+			],
+			[
+				"headerscs",
+				"scss/elements/_header.scss"
+			],
+			[
+				"header",
+				"twig/pages/home/header.html.twig"
+			],
+			[
 				"header.scss",
 				"scss/elements/_header.scss"
 			],
@@ -1334,10 +1599,6 @@
 			[
 				"varia",
 				"scss/_variables.scss"
-			],
-			[
-				"blocksscs",
-				"scss/elements/_blocks.scss"
 			],
 			[
 				"blocks",
@@ -1798,42 +2059,6 @@
 			[
 				"tableviewer",
 				"src/Nos/Bundle/AdminBundle/Resources/public/js/app/widgets/table-viewer.js"
-			],
-			[
-				"viewer.js",
-				"src/Nos/Bundle/AdminBundle/Resources/public/js/app/widgets/viewer.js"
-			],
-			[
-				"button",
-				"src/Nos/Bundle/AdminBundle/Resources/private/scss/app/styles/_buttons.scss"
-			],
-			[
-				"tableeditorscss",
-				"src/Nos/Bundle/AdminBundle/Resources/private/scss/app/elements/_table-editor-viewer.scss"
-			],
-			[
-				"aside",
-				"src/Nos/Bundle/AdminBundle/Resources/private/scss/app/styles/_asides.scss"
-			],
-			[
-				"main.js",
-				"src/Nos/Bundle/AdminBundle/Resources/public/js/main.js"
-			],
-			[
-				"livestrea",
-				"src/Nos/Bundle/AdminBundle/Resources/views/NosOp3/live_streams.html.twig"
-			],
-			[
-				"newsletters",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Newsletter/newsletters.html.twig"
-			],
-			[
-				"broadcastunique",
-				"src/Nos/Bundle/AdminBundle/Api/admin/stubs/admin/broadcasts/unique.get.json"
-			],
-			[
-				"broad",
-				"src/Nos/Bundle/AdminBundle/Controller/BroadcastsController.php"
 			]
 		],
 		"width": 0.0

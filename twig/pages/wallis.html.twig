@@ -1,5 +1,10 @@
 {% extends 'base.html.twig' %}
 
+{% block head %}
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzVM5zR1A7EzWtL75TrzMZnBter3B3ZVk"></script>
+  <script type="text/javascript" src="js/marker-with-label.min.js"></script>
+{% endblock %}
+
 {% block body %}
 
   {%
@@ -51,8 +56,11 @@
     {% endblock %}
   {% endembed %}
 
-  <main style="height: 500px;">
-  </main>
+  {% include 'pages/wallis/list.html.twig' %}
+
+  <div class="center">
+    {% include 'pages/wallis/blocks.html.twig' %}
+  </div>
 
   {% include 'pages/home/related.html.twig' %}
 

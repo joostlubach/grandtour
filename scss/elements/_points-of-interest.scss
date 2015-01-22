@@ -1,0 +1,49 @@
+#points-of-interest {
+
+  li {
+    @include clearfix;
+
+    padding: $large-space 0;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $light-gray;
+    }
+
+    .thumbnail {
+      float: left;
+      width: 40%;
+      img { width: 100%; }
+      padding-right: $large-space;
+    }
+    .info {
+      float: left;
+      width: 60%;
+    }
+
+    .meta {
+      font-size: $small-font-size;
+      b { margin-right: 0.2em; }
+      margin-bottom: $small-space;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+    h3 {
+      @extend .sans-serif;
+      font-style: normal;
+      color: $red;
+      font-size: 1.4em;
+    }
+
+    p {
+      margin-top: $large-space;
+    }
+
+  }
+
+}

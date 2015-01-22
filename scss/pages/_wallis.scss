@@ -1,0 +1,28 @@
+#list {
+
+  position: relative;
+
+  // Fixed height.
+  height: 640px;
+
+  #map-canvas {
+    position: absolute;
+    left: 0;
+    width: 44%;
+    top: 0;
+    bottom: 0;
+    margin-right: $huge-space;
+  }
+
+  #points-of-interest {
+    position: absolute;
+    right: $huge-space;
+    left: 47%;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+  }
+
+  margin-bottom: $huge-space;
+
+}

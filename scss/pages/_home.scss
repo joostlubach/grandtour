@@ -1,4 +1,4 @@
-main {
+.center {
   max-width: $layout-max-width-px;
   min-width: $layout-min-width-px;
   margin: 0 auto;
@@ -8,7 +8,7 @@ main {
   }
 }
 
-main .title {
+.title {
   padding: 0 $large-space;
   text-align: center;
 }

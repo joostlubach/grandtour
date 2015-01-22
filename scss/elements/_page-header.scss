@@ -1,0 +1,203 @@
+#page-header {
+
+  @extend .inverted;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+
+  // Ensure aspect ratio of header image.
+  padding-top: 59.4976452%;
+  position: relative;
+
+
+  // When the screen is wider, cap the height.
+  @include breakpoint($layout-max-width-px, min) {
+    padding-top: 0;
+    height: $layout-max-width-px * .594976452;
+  }
+
+  margin-bottom: 2 * $huge-space;
+
+  .overlay {
+    @include fill;
+    background: rgba(black, 0.15);
+  }
+
+  select.region {
+    position: absolute;
+    top: 10%;
+    left: 80px;
+  }
+
+  .content {
+    position: absolute;
+
+    left: 80px;
+    top: 25%;
+
+    max-width: 21em;
+
+    h1 {
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      margin-bottom: 0.4em;
+    }
+    p {
+      line-height: 1.1em;
+      margin: 0.4em 0;
+    }
+  }
+
+  .social {
+    position: absolute;
+    top: 0; right: 75px + $small-space;
+
+    a {
+      @extend .iconic-button;
+      display: block;
+      float: left;
+      padding: 8px 2px;
+    }
+  }
+
+  .left-side {
+    position: absolute;
+
+    top: 10%;
+    left: 0;
+
+    a {
+      background: $red;
+      display: block;
+      margin-bottom: 2px;
+      width: 32px;
+      padding: 2px;
+      line-height: 1em;
+
+      font-size: 0.6em;
+      font-weight: 400;
+      text-align: center;
+      i {
+        font-size: 28px;
+      }
+      span {
+        display: block;
+        margin: -2px 0 2px;
+      }
+    }
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+
+    left: 0; right: 0;
+    @include flex-row;
+    @include justify-content(center);
+
+    > :not(:last-child) {
+      margin-right: 2 * $huge-space;
+    }
+
+    a {
+      color: black;
+      text-align: center;
+
+      i {
+        display: block;
+        font-size: 32px;
+        margin: 0 auto;
+      }
+      &:hover {
+        i { @extend :hover; }
+      }
+      &.selected {
+        i { @extend .red; @extend :hover; }
+        color: $red;
+      }
+      span {
+        display: block;
+        @extend .decorated;
+      }
+    }
+  }
+
+  .sections {
+    bottom: -30px;
+  }
+
+  .switzerland-logo {
+    @extend .hide-text;
+
+    position: absolute;
+    top: 0; right: 0;
+    width: 75px; height: 75px;
+    background-size: cover;
+    background-image: url(../img/switzerland-logo.png);
+  }
+
+  .grandtour-logo {
+    @extend .hide-text;
+
+    margin-left: -15px;
+    width: 32px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/grandtour-logo.png);
+  }
+
+  @include breakpoint(600px) {
+    .content {
+      font-size: 0.8em;
+      top: 20%;
+    }
+  }
+
+  @include breakpoint(400px) {
+
+    padding-top: 0;
+
+    .content {
+      position: static;
+    }
+    .overlay {
+      display: none;
+    }
+
+    .left-side {
+      position: static;
+      background: $red;
+
+      @include flex-row;
+
+      height: 50px;
+
+      a {
+        margin-bottom: 0;
+        margin-right: 2px;
+      }
+    }
+
+    .content {
+      padding: $large-space $large-space #{2 * $large-space};
+      width: auto;
+      max-width: none;
+    }
+
+    .social {
+      padding: 8px 0;
+      right: 50px + $small-space;
+    }
+
+    .switzerland-logo {
+      width: 50px; height: 50px;
+    }
+  }
+
+  @include breakpoint($layout-min-width-px) {
+    width: $layout-min-width-px;
+  }
+
+}

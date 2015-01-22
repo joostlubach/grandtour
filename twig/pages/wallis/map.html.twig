@@ -1,0 +1,68 @@
+<div id="map-canvas">
+</div>
+
+<style>
+  .shieldLabel {
+    font-size: 10px;
+    color: #333;
+  }
+</style>
+
+<script>
+
+var PointsOfInterest = [
+  {
+    center: new google.maps.LatLng(46.2601315, 7.6073381),
+    number: 1
+  },
+  {
+    center: new google.maps.LatLng(46.1601315, 7.6273381),
+    number: 2
+  },
+  {
+    center: new google.maps.LatLng(46.3501315, 7.4073381),
+    number: 3
+  },
+  {
+    center: new google.maps.LatLng(46.5601315, 7.6073381),
+    number: 4
+  },
+];
+
+function initialize() {
+  var mapOptions = {
+    zoom: 8,
+    center: new google.maps.LatLng(46.2601315, 7.6073381),
+    disableDefaultUI: true
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  var shield = {
+    path: 'M 0,2 C 4,0 16,0 20,2 L 20,10 C 20,16 20,22 10,26 C 0,22 0,16 0,10 z',
+    fillColor: '#fff',
+    fillOpacity: 1,
+    scale: 1,
+    strokeColor: '#333',
+    strokeWeight: 2,
+    anchor: new google.maps.Point(10, 26)
+  };
+
+  for (var i = 0; i < PointsOfInterest.length; i++) {
+    var pointOfInterest = PointsOfInterest[i];
+
+    new MarkerWithLabel({
+      position:  pointOfInterest.center,
+      icon:      shield,
+      map:       map,
+
+      labelText: pointOfInterest.number.toString(),
+      labelClass: 'shieldLabel',
+      labelStyle: {top: "-26px", left: "-10px", width: "20px", textAlign: "center"}
+    });
+  }
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>

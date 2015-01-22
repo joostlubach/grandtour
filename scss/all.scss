@@ -2,7 +2,9 @@
 @import "compass/reset";
 
 @import "variables";
-@import "layout";
-@import "styles";
+
+@import "pages/*";
 @import "elements/*";
+
+@import "styles";
 @import "misc";

@@ -9,6 +9,10 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
   margin: 0 auto;
   padding-left: $large-space;
 
+  header {
+    margin-right: $large-space;
+  }
+
   .block {
     display: block;
     float: left;
