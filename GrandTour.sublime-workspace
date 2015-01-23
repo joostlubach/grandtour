@@ -519,70 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "twig/pages/wallis.html.twig",
-			"settings":
-			{
-				"buffer_size": 1740,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "twig/pages/wallis/map.html.twig",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "twig/pages/wallis/list.html.twig",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "twig/pages/wallis/blocks.html.twig",
-			"settings":
-			{
-				"buffer_size": 649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/elements/_blocks.scss",
-			"settings":
-			{
-				"buffer_size": 1716,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/_styles.scss",
-			"settings":
-			{
-				"buffer_size": 1302,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/elements/_header.scss",
-			"settings":
-			{
-				"buffer_size": 3255,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "twig/pages/home/blocks.html.twig",
-			"settings":
-			{
-				"buffer_size": 1411,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/RubyGem.sublime-build",
 	"command_palette":
@@ -696,22 +632,45 @@
 		"/Users/joost/Work/Projects/G+J/GrandTour",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www"
 	],
 	"file_history":
 	[
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_points-of-interest.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_wallis.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/map.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/list.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_styles.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/map.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/use/multiple_aliases.test",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_misc.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/LexerInterface.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/LICENSE",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/phpunit.xml.dist",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_home.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_layout.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/base.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_blocks.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_page-header.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_header.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_map.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/www/js/marker-with-label.min.js",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/blocks.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/blocks.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/header.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/related.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/icons/style.css",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_styles.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/SetTemp.php",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_header.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/icons/selection.json",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_filters_arguments.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/css/all.css",
@@ -722,17 +681,10 @@
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Binary/NotEqual.php",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/filters/nl2br.rst",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_related.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_blocks.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_layout.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/blocks.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/base.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Call.php",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/filters/capitalize.rst",
 		"/Users/joost/Work/Projects/G+J/GrandTour/config/compass.rb",
 		"/Users/joost/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_misc.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/related.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/blocks.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/map.html.twig",
@@ -816,21 +768,7 @@
 		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-font.scss",
 		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/build/emulator/Wijnen.app/www/lib/ionic/scss/ionicons/_ionicons-font.scss",
 		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/fonts/ionicons.svg",
-		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/fonts/ionicons.woff",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/www/lib/ionic/fonts/ionicons.svg",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/memoizee/node_modules/es6-weak-map/is-native-implemented.js",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/object/is-object.js",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/array/valid-array.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/cordova/version",
-		"/Users/joost/Work/Projects/Wijnen/App/scss/_includes.scss",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/mout/object/hasOwn.js",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/HOOKS.md",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/gulp/node_modules/minimist/test/long.js",
-		"/Users/joost/Work/Projects/Wijnen/App/hooks/after_prepare/010_add_platform_class.js",
-		"/Users/joost/Work/Projects/Wijnen/App/js/utils/local-storage.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/CordovaLib/CordovaLib_Prefix.pch",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/gulp/node_modules/liftoff/node_modules/resolve/lib/caller.js"
+		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/fonts/ionicons.woff"
 	],
 	"find":
 	{
@@ -976,6 +914,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"span",
+			"Blokhut met uitzicht",
 			"0.4",
 			"48",
 			"144",
@@ -1101,8 +1041,6 @@
 			"item",
 			"start_at",
 			"title",
-			"featured",
-			"announcements",
 			"featured"
 		],
 		"highlight": true,
@@ -1249,248 +1187,8 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "twig/pages/wallis.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1740,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								491,
-								491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "twig/pages/wallis/map.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "twig/pages/wallis/list.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "twig/pages/wallis/blocks.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								69,
-								69
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "scss/elements/_blocks.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1716,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								152,
-								152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "scss/_styles.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "scss/elements/_header.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								415,
-								415
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "twig/pages/home/blocks.html.twig",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1549,16 +1247,44 @@
 		"selected_items":
 		[
 			[
+				"varia",
+				"scss/_variables.scss"
+			],
+			[
+				"shields",
+				"scss/elements/_shields.scss"
+			],
+			[
+				"maphtml",
+				"twig/pages/home/map.html.twig"
+			],
+			[
+				"pointsof",
+				"scss/elements/_points-of-interest.scss"
+			],
+			[
+				"list.html",
+				"twig/pages/wallis/list.html.twig"
+			],
+			[
+				"style",
+				"scss/_styles.scss"
+			],
+			[
+				"blocksscs",
+				"scss/elements/_blocks.scss"
+			],
+			[
+				"styles",
+				"scss/_styles.scss"
+			],
+			[
 				"header.scs",
 				"scss/elements/_header.scss"
 			],
 			[
 				"style.scss",
 				"scss/_styles.scss"
-			],
-			[
-				"blocksscs",
-				"scss/elements/_blocks.scss"
 			],
 			[
 				"blocksscss",
@@ -1595,10 +1321,6 @@
 			[
 				"headerscss",
 				"scss/elements/_header.scss"
-			],
-			[
-				"varia",
-				"scss/_variables.scss"
 			],
 			[
 				"blocks",
@@ -2035,30 +1757,6 @@
 			[
 				"announcemfrontpa",
 				"src/Nos/Bundle/AdminBundle/Resources/views/Announcements/frontpage.html.twig"
-			],
-			[
-				"frontpagefe",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Frontpage/featured.html.twig"
-			],
-			[
-				"frontpagetopstore",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Frontpage/top_stories.html.twig"
-			],
-			[
-				"frontpageinde",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Frontpage/index.html.twig"
-			],
-			[
-				"ajaxbut",
-				"src/Nos/Bundle/AdminBundle/Resources/public/js/app/widgets/ajax-button.js"
-			],
-			[
-				"widge",
-				"src/Nos/Bundle/AdminBundle/Resources/public/js/app/widgets.js"
-			],
-			[
-				"tableviewer",
-				"src/Nos/Bundle/AdminBundle/Resources/public/js/app/widgets/table-viewer.js"
 			]
 		],
 		"width": 0.0

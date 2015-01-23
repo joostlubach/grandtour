@@ -3,8 +3,10 @@
 
 @import "variables";
 
-@import "pages/*";
-@import "elements/*";
-
+@import "layout";
 @import "styles";
 @import "misc";
+
+@import "pages/*";
+@import "pages/**/*";
+@import "elements/*";

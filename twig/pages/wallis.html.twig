@@ -5,6 +5,8 @@
   <script type="text/javascript" src="js/marker-with-label.min.js"></script>
 {% endblock %}
 
+{% block body_attrs %}id="page-wallis"{% endblock %}
+
 {% block body %}
 
   {%
@@ -56,9 +58,16 @@
     {% endblock %}
   {% endembed %}
 
-  {% include 'pages/wallis/list.html.twig' %}
+  <main>
+    <h2 class="section-header">Slapen</h2>
 
-  <div class="center">
+    {% include 'pages/wallis/map.html.twig' %}
+    {% include 'pages/wallis/points_of_interest.html.twig' %}
+  </main>
+
+  <h2 class="section-header">Bekijk ook</h2>
+
+  <div class="layout-center">
     {% include 'pages/wallis/blocks.html.twig' %}
   </div>
 

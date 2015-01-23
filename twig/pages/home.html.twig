@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% block body_attrs %}id="page-home"{% endblock %}
+
 {% block body %}
 
   {%
@@ -35,11 +37,12 @@
     {% endblock %}
   {% endembed %}
 
-  <div class="center">
-    <div class="title">
+  <div class="layout-center">
+
+    <header id="title">
       <h1>Ontdek de Grand Tour</h1>
       <h3>Een onvergetelijke rondreis door Zwitserland</h3>
-    </div>
+    </header>
 
     {% include 'pages/home/map.html.twig' %}
     {% include 'pages/home/blocks.html.twig' %}

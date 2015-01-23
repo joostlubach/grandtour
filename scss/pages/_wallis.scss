@@ -1,28 +1,65 @@
-#list {
+#page-wallis {
 
-  position: relative;
+  main {
+    position: relative;
+    margin-bottom: $huge-space;
 
-  // Fixed height.
-  height: 640px;
+    #map {
+      position: absolute;
+      left: 0;
+      width: 44%;
+      top: 0;
+      bottom: 0;
+    }
 
-  #map-canvas {
-    position: absolute;
-    left: 0;
-    width: 44%;
-    top: 0;
-    bottom: 0;
+    #map-canvas {
+      @include fill;
+    }
+
+    .section-header, #points-of-interest {
+      position: relative;
+      margin-left: 47%;
+      margin-right: $huge-space;
+    }
+
+    #points-of-interest {
+      max-height: 1280px;
+      overflow: auto;
+    }
+
+    @include breakpoint(800px) {
+
+      .section-header, #map, #points-of-interest {
+        position: relative;
+        left: auto; right: auto; top: auto; bottom: auto;
+        margin-left: $huge-space;
+        margin-right: $huge-space;
+      }
+
+      #map {
+        width: auto;
+        padding-top: 50%;
+      }
+
+      #points-of-interest {
+        margin-top: $huge-space;
+        max-height: none;
+        overflow: visible;
+      }
+
+    }
+
+    @include breakpoint(400px) {
+      #map {
+        padding-top: 60%;
+      }
+    }
+
+  }
+
+  .section-header {
+    margin-left: $huge-space;
     margin-right: $huge-space;
   }
-
-  #points-of-interest {
-    position: absolute;
-    right: $huge-space;
-    left: 47%;
-    top: 0;
-    bottom: 0;
-    overflow: auto;
-  }
-
-  margin-bottom: $huge-space;
 
 }

@@ -1,0 +1,12 @@
+main {
+  min-width: $layout-min-width-px;
+}
+
+.layout-center {
+  max-width: $layout-max-width-px;
+  margin: 0 auto;
+
+  > * {
+    margin-bottom: $huge-space;
+  }
+}

@@ -1,14 +1,60 @@
-.center {
-  max-width: $layout-max-width-px;
-  min-width: $layout-min-width-px;
-  margin: 0 auto;
+#page-home {
 
-  > * {
-    margin-bottom: $huge-space;
+  #title {
+    padding: 0 $large-space;
+    text-align: center;
   }
-}
 
-.title {
-  padding: 0 $large-space;
-  text-align: center;
+  #map {
+    padding: 0 $huge-space;
+
+    @include flex-row(flex-start);
+    @include justify-content(center);
+
+    .map {
+      margin-right: $huge-space;
+      > img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    h2 {
+      font-weight: bold;
+      margin-bottom: 0.2em;
+    }
+
+    .links > :first-child {
+      margin-bottom: $large-space;
+    }
+
+    @include breakpoint(700px) {
+      @include flex-col(center);
+      .map {
+        margin-right: 0;
+      }
+
+      .links {
+        @include flex-row(flex-start);
+        > :first-child {
+          margin-bottom: 0;
+          margin-right: $huge-space;
+        }
+      }
+    }
+    @include breakpoint(400px) {
+      padding: $small-space;
+
+      .links {
+        display: block;
+        text-align: center;
+
+        > :first-child {
+          margin-right: 0;
+          margin-bottom: $huge-space;
+        }
+      }
+    }
+  }
+
 }
