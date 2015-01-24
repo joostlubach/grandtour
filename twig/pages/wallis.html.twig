@@ -59,18 +59,20 @@
   {% endembed %}
 
   <main>
-    <h2 class="section-header">Slapen</h2>
+    <div class="side-by-side">
+      <h2 class="section-header">Slapen</h2>
 
-    {% include 'pages/wallis/map.html.twig' %}
-    {% include 'pages/wallis/points_of_interest.html.twig' %}
+      {% include 'pages/wallis/map.html.twig' %}
+      {% include 'pages/wallis/points_of_interest.html.twig' %}
+    </div>
+
+    <h2 class="section-header">Bekijk ook</h2>
+
+    <div class="layout-center">
+      {% include 'pages/wallis/blocks.html.twig' %}
+    </div>
+
+    {% include 'pages/home/related.html.twig' %}
   </main>
-
-  <h2 class="section-header">Bekijk ook</h2>
-
-  <div class="layout-center">
-    {% include 'pages/wallis/blocks.html.twig' %}
-  </div>
-
-  {% include 'pages/home/related.html.twig' %}
 
 {% endblock %}
