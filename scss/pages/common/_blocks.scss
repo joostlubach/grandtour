@@ -78,7 +78,7 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
     width: $block-width * 2 + 3 * $large-space;
   }
   @include breakpoint($block-width * 2 + 3 * $large-space) {
-    padding: 0 $large-space;
+    padding: 0 $huge-space;
     width: auto;
 
     .block {

@@ -519,6 +519,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "scss/elements/_shields.scss",
+			"settings":
+			{
+				"buffer_size": 3394,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig/pages/wallis/map.html.twig",
+			"settings":
+			{
+				"buffer_size": 2187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/pages/_wallis.scss",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/RubyGem.sublime-build",
 	"command_palette":
@@ -641,11 +673,7 @@
 	],
 	"file_history":
 	[
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_points-of-interest.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_wallis.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/map.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/list.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_styles.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/map.html.twig",
@@ -655,9 +683,12 @@
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/LICENSE",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/phpunit.xml.dist",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_home.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/map.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_wallis.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_layout.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/base.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_blocks.scss",
@@ -671,6 +702,7 @@
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/related.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/icons/style.css",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/SetTemp.php",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/icons/selection.json",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_filters_arguments.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/css/all.css",
@@ -1187,8 +1219,129 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "scss/elements/_shields.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "twig/pages/wallis/map.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/pages/_wallis.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

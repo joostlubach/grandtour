@@ -10,7 +10,6 @@
   padding-top: 59.4976452%;
   position: relative;
 
-
   // When the screen is wider, cap the height.
   @include breakpoint($layout-max-width-px, min) {
     padding-top: 0;
@@ -62,7 +61,7 @@
     }
   }
 
-  .left-side {
+  .menus {
     position: absolute;
 
     top: 10%;
@@ -148,26 +147,30 @@
     background-image: url(../img/grandtour-logo.png);
   }
 
-  @include breakpoint(600px) {
-    .content {
-      font-size: 0.8em;
-      top: 20%;
-    }
-  }
-
-  @include breakpoint(400px) {
+  @include breakpoint(540px) {
 
     padding-top: 0;
 
-    .content {
-      position: static;
-    }
-    .overlay {
-      display: none;
+    .content, select.region {
+      position: relative;
+      left: 0; right: 0;
+      top: 0; bottom: 0;
+
+      font-size: 0.9em;
     }
 
-    .left-side {
-      position: static;
+    .bottom {
+      > :not(:last-child) {
+        margin-right: $huge-space;
+      }
+    }
+
+    select.region {
+      margin: $large-space $large-space 0;
+    }
+
+    .menus {
+      position: relative;
       background: $red;
 
       @include flex-row;
@@ -181,7 +184,7 @@
     }
 
     .content {
-      padding: $large-space $large-space #{2 * $large-space};
+      padding: $huge-space $large-space #{2 * $huge-space};
       width: auto;
       max-width: none;
     }
