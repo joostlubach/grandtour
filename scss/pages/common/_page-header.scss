@@ -59,6 +59,16 @@
       float: left;
       padding: 8px 2px;
     }
+
+    a.facebook:hover {
+      color: $facebook-blue;
+    }
+    a.twitter:hover {
+      color: $twitter-blue;
+    }
+    a.google-plus:hover {
+      color: $google-plus-red;
+    }
   }
 
   .menus {
@@ -84,6 +94,10 @@
       span {
         display: block;
         margin: -2px 0 2px;
+      }
+
+      &:hover {
+        background: darken($red, 5%);
       }
     }
   }
