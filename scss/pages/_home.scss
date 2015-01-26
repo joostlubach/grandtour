@@ -34,13 +34,15 @@
     }
 
     @include breakpoint(700px) {
-      @include flex-col(center);
+      display: block;
+
       .map {
         margin-right: 0;
       }
 
       .links {
         @include flex-row(flex-start);
+        @include justify-content(center);
         > :first-child {
           margin-bottom: 0;
           margin-right: $huge-space;
