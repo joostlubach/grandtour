@@ -11,13 +11,13 @@
 // Shield badge contains a number and has a simple background.
 b.shield {
   display: inline-block;
-  width: 15px; height: 20px;
+  width: 17px; height: 23px;
 
   text-align: center;
-  line-height: 20px;
+  line-height: 23px;
 
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAXCAYAAADtNKTnAAABNElEQVR4Ae2UMUpDQRCGB0ljqpSyvszM2yVo6RlS24u1gRQS8AJ6AC/hBcTexisIFrb2WqiFlaDOpyAPNZLVNg++3fwz/z95hN1IPCuefDMPfbdVO87q59nsMrgJ7ovaMzuaOn18+MmRl2z+UMxf/wpfIB1xVswOs+q2r/uWr7n7wAci0mNHU6ePDz85kM5UqWc5ZDmkYkhWe+JDSqkfSAV9cuSFi4XITTMKpIIROfK8ySmiNZsEUsGEHHnEHqKYXXPZZLGnh58ceWmaZjXE7XtBdRbIAszwkyPPkM9XCx6L2TiQXxjj6/4EwgJZ9YQG/2RFdRrID0zp48MfCLB0OcpqLx8mvwoO2pQ22NHU6ePDP2+I+HC4U9TuCHyFOv1AurB8g4PUmu0XswsOEzt63oFk+Tdv3o8EFJibTGkAAAAASUVORK5CYII=);
-  background-size: 15px 20px;
+  background-size: 17px 23px;
 
   @include retina {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAtCAYAAADLEbkXAAACbElEQVR42u2YPYsTURSGb9ZGFAQjEpNMzjlzB8GPVkTEwsJGsFTBVrCwEG0s1s5G/AnbKloqKCK4LIiggogLNtqKFqKLIogIET/uU3lzs5PdmIxp5sAhl3vf874PM5nAxJVVt9vd5kUO5SJnvNjVQuxa+Hzg1V4Wou9Cr4T+GvoHzZo9ztCgZYZZPPDC042qVqu12TI7nPf0khe9V6h9DP27ig6QH8ggi0yyHVWIPgmCPqIZdT+APXbRxkx7NIjY29B3vNhl37OzoU8VmR61rh2wju2y7bbDnG2kWbPHGRq0zDCLB15jguhFL3Ik+mJNrfDEm4w1Qdx/qhqkBqlBapAapAapQWqQGqQMxIt+izc6nc6mqiHIiDNhcF7tTbyZt9taNQgZcSYMXJHnA5u93r6qQciIM2EIIHZ3EERPVw1CRpwJAyDzCd2NqkHISEDmXZ5l+wc2Vd8H7VyFHHNkxJkwcLDBq30ZOBA5XhUF3nEW2TA4yostJJfqWVUgeCdZC38Ps2ynF/2ZXJUT04bAM84gk+xBUtXbieiTqranBYEXnnEGmcPCtu72at+TF/KHvOlPCoEHXrE3WWSW3b8LiJJ7uIjRJBB4DPvK+VFzDS+6tArMoyzLuuNCMMNs6kcGWSOHRWRrIfpileHPucjJ9UKgZSb1wZuMVF8Oo7rM4HDrUy9yrGyWMzQls8t4j3tZm171PgYlpq9C6BVVPUizDvrXZXq88HT/WI1c5Fz0NI3dzOLhplEisodn3ov+Wi8A2jBzK31EpwW0N5jfXON/2T4atK7qajabW3J+rkWvh16hWbPHmZtRNehJTf4A+aC6ZBA8qScAAAAASUVORK5CYII=);

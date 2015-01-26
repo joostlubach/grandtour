@@ -110,8 +110,11 @@
     left: 0; right: 0;
     text-align: center;
 
-    > :not(:last-child) {
+    > * {
       margin-right: 2 * $huge-space;
+    }
+    > :last-child {
+      margin-right: 0;
     }
 
     a {
@@ -148,8 +151,12 @@
     position: absolute;
     top: 0; right: 0;
     width: 75px; height: 75px;
+
+    background: url(../img/switzerland-logo.png) no-repeat;
     background-size: cover;
-    background-image: url(../img/switzerland-logo.png);
+    @include retina {
+      background-image: url(../img/switzerland-logo@2x.png);
+    }
   }
 
   .grandtour-logo {
@@ -157,8 +164,12 @@
 
     margin-left: -15px;
     width: 32px; height: 40px;
+
+    background: url(../img/grandtour-logo.png) no-repeat;
     background-size: cover;
-    background-image: url(../img/grandtour-logo.png);
+    @include retina {
+      background-image: url(../img/grandtour-logo@2x.png);
+    }
   }
 
   @include breakpoint(540px) {
@@ -174,8 +185,11 @@
     }
 
     .bottom {
-      > :not(:last-child) {
+      > * {
         margin-right: $huge-space;
+      }
+      > :last-child {
+        margin-right: 0;
       }
     }
 

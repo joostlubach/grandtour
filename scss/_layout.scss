@@ -10,3 +10,16 @@ main {
     margin-bottom: $huge-space;
   }
 }
+
+// IE 8 does not support background-size, so we'll fix the entire body's width to 809
+html.no-backgroundsize {
+  #page-header {
+    // This: is just a weird bug in IE8. Let's leave this yeah?
+    border: 1px solid transparent;
+  }
+
+  .layout-column {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
