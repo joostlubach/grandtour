@@ -1,13 +1,3 @@
-.shield {
-  background-image: url(../img/shields32.png);
-  @include retina {
-    background-image: url(../img/shields32@2x.png);
-    background-size: auto 128px;
-  }
-
-  width: 32px; height: 32px;
-}
-
 // Shield badge contains a number and has a simple background.
 b.shield {
   display: inline-block;
@@ -22,6 +12,17 @@ b.shield {
   @include retina {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAtCAYAAADLEbkXAAACbElEQVR42u2YPYsTURSGb9ZGFAQjEpNMzjlzB8GPVkTEwsJGsFTBVrCwEG0s1s5G/AnbKloqKCK4LIiggogLNtqKFqKLIogIET/uU3lzs5PdmIxp5sAhl3vf874PM5nAxJVVt9vd5kUO5SJnvNjVQuxa+Hzg1V4Wou9Cr4T+GvoHzZo9ztCgZYZZPPDC042qVqu12TI7nPf0khe9V6h9DP27ig6QH8ggi0yyHVWIPgmCPqIZdT+APXbRxkx7NIjY29B3vNhl37OzoU8VmR61rh2wju2y7bbDnG2kWbPHGRq0zDCLB15jguhFL3Ik+mJNrfDEm4w1Qdx/qhqkBqlBapAapAapQWqQGqQMxIt+izc6nc6mqiHIiDNhcF7tTbyZt9taNQgZcSYMXJHnA5u93r6qQciIM2EIIHZ3EERPVw1CRpwJAyDzCd2NqkHISEDmXZ5l+wc2Vd8H7VyFHHNkxJkwcLDBq30ZOBA5XhUF3nEW2TA4yostJJfqWVUgeCdZC38Ps2ynF/2ZXJUT04bAM84gk+xBUtXbieiTqranBYEXnnEGmcPCtu72at+TF/KHvOlPCoEHXrE3WWSW3b8LiJJ7uIjRJBB4DPvK+VFzDS+6tArMoyzLuuNCMMNs6kcGWSOHRWRrIfpileHPucjJ9UKgZSb1wZuMVF8Oo7rM4HDrUy9yrGyWMzQls8t4j3tZm171PgYlpq9C6BVVPUizDvrXZXq88HT/WI1c5Fz0NI3dzOLhplEisodn3ov+Wi8A2jBzK31EpwW0N5jfXON/2T4atK7qajabW3J+rkWvh16hWbPHmZtRNehJTf4A+aC6ZBA8qScAAAAASUVORK5CYII=);
   }
+}
+
+// Use a sprite image as these are multi-colored opaque icons.
+.shield {
+  background-image: url(../img/shields32.png);
+  @include retina {
+    background-image: url(../img/shields32@2x.png);
+    background-size: auto 128px;
+  }
+
+  width: 32px; height: 32px;
 }
 
 .shield-sites {
@@ -49,6 +50,7 @@ b.shield {
   }
 }
 
+// These are bigger and have more color options.
 .shield40 {
   background-image: url(../img/shields40.png);
   @include retina {
