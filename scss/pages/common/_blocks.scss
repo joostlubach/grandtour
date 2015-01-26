@@ -32,6 +32,9 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
     span {
       @extend h2;
       @extend .decorated;
+
+      display: block;
+      text-align: center;
     }
   }
 
@@ -51,6 +54,7 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
       @extend h2;
       text-align: center;
 
+      display: block;
       padding: $large-space;
 
       background-image: radial-gradient(rgba(black, 0.3), rgba(black, 0), rgba(black, 0));
@@ -68,6 +72,12 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
       @extend :hover;
     }
 
+  }
+
+  html.no-flexbox.no-flexboxlegacy & {
+    .block {
+      padding-top: 10%;
+    }
   }
 
   .block-large {

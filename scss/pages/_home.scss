@@ -33,6 +33,18 @@
       margin-bottom: $large-space;
     }
 
+    html.no-flexbox.no-flexboxlegacy & {
+      @include clearfix;
+
+      .map {
+        float: left;
+        width: 70%;
+      }
+      .links {
+        padding-left: $huge-space;
+      }
+    }
+
     @include breakpoint(700px) {
       display: block;
 
@@ -43,12 +55,29 @@
       .links {
         @include flex-row(flex-start);
         @include justify-content(center);
+
         > :first-child {
           margin-bottom: 0;
           margin-right: $huge-space;
         }
       }
     }
+
+    html.no-flexbox.no-flexboxlegacy & {
+      @include breakpoint(700px) {
+        .map {
+          float: none;
+          width: auto;
+        }
+        .links {
+          @include clearfix;
+          > * {
+            float: left;
+          }
+        }
+      }
+    }
+
     @include breakpoint(400px) {
       padding: $small-space;
 
@@ -62,6 +91,15 @@
         }
       }
     }
+
+    html.no-flexbox.no-flexboxlegacy & {
+      @include breakpoint(400px) {
+        .links > * {
+          float: none;
+        }
+      }
+    }
+
   }
 
 }

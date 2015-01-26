@@ -108,14 +108,14 @@
     height: 40px;
 
     left: 0; right: 0;
-    @include flex-row;
-    @include justify-content(center);
+    text-align: center;
 
     > :not(:last-child) {
       margin-right: 2 * $huge-space;
     }
 
     a {
+      display: inline-block;
       color: black;
       text-align: center;
 
@@ -139,7 +139,7 @@
   }
 
   .sections {
-    bottom: -30px;
+    // bottom: -30px;
   }
 
   .switzerland-logo {
@@ -192,6 +192,7 @@
       height: 50px;
 
       a {
+        display: inline-block;
         margin-bottom: 0;
         margin-right: 2px;
       }
@@ -210,6 +211,14 @@
 
     .switzerland-logo {
       width: 50px; height: 50px;
+    }
+  }
+
+  html.no-flexbox.no-flexboxlegacy & {
+    @include breakpoint(540px) {
+      .menus {
+        padding: 4px;
+      }
     }
   }
 
