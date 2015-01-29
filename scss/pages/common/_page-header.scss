@@ -14,7 +14,7 @@
 
   margin-top: 6px;
   margin-right: 6px;
-  margin-bottom: 3 * $huge-space;
+  margin-bottom: 4 * $huge-space;
 
   .overlay {
     @include fill;
@@ -161,8 +161,7 @@
   .grandtour-logo {
     @extend .hide-text;
 
-    margin-left: -32px;
-    width: 62px; height: 78px;
+    width: 40px; height: 50px;
 
     background: url(../img/grandtour-logo.png) no-repeat;
     background-size: cover;
@@ -205,7 +204,7 @@
 
     .bottom {
       > * {
-        margin-right: $huge-space;
+        margin-right: $large-space;
       }
       > :last-child {
         margin-right: 0;
@@ -271,7 +270,7 @@
   }
 
   @include breakpoint($layout-min-width-px) {
-    width: $layout-min-width-px - 6px;
+    width: $layout-min-width-px;
   }
 
 }

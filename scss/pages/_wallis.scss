@@ -4,6 +4,10 @@
     width: 156px; height: 100px;
   }
 
+  #blocks {
+    margin-top: 2 * $huge-space;
+  }
+
   .side-by-side {
     position: relative;
     margin-bottom: $huge-space;

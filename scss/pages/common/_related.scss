@@ -16,9 +16,7 @@
   margin-bottom: 6px;
 
   @include breakpoint($layout-min-width-px) {
-    padding-top: 0;
     width: $layout-min-width-px;
-    height: $layout-min-width-px * .517268446;
   }
 
 

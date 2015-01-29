@@ -91,6 +91,10 @@ $blocks-width: $block-width * 3 + 4 * $huge-space;
     padding: 0 $huge-space;
     width: auto;
 
+    .section-header {
+      margin-right: 0;
+    }
+
     .block {
       float: none;
       width: auto;
