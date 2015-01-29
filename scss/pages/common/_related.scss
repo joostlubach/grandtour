@@ -10,6 +10,11 @@
   padding-top: 51.7268446%;
   position: relative;
 
+  font-size: 1.4em;
+
+  margin-right: 6px;
+  margin-bottom: 6px;
+
   @include breakpoint($layout-min-width-px) {
     padding-top: 0;
     width: $layout-min-width-px;
@@ -26,41 +31,47 @@
   .content {
     position: absolute;
     top: 20%; left: 10%;
-    width: 40%;
+    max-width: 18em;
 
     .label {
       display: block;
       margin-bottom: 0.4em;
     }
     h2 {
+      font-size: 2.4em;
+      font-weight: 300;
       margin-bottom: 0.2em;
     }
     p {
       line-height: 1.2em;
     }
 
-    background: rgba($red, 0.9);
-    padding: $large-space;
+    background: $red;
+    padding: $huge-space;
   }
 
   .label {
     @extend .decorated;
   }
 
-  @include breakpoint(600px) {
-    .content {
-      font-size: 0.8em;
-      top: 15%; left: 8%;
-      width: 60%;
-    }
+  @include breakpoint(1000px) {
+    font-size: 1.2em;
   }
 
-  @include breakpoint(400px) {
+
+  @include breakpoint(800px) {
+    font-size: 1em;
+  }
+
+  @include breakpoint(600px) {
+    margin-right: 0;
+    margin-bottom: 0;
+
     .content {
-      top: $small-space; left: $small-space; right: $small-space; bottom: $small-space;
-      padding: $small-space;
-      font-size: 0.8em;
+      position: relative;
+      left: auto; right: auto;
       width: auto;
+      max-width: none;
     }
   }
 
