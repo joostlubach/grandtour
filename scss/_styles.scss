@@ -4,7 +4,12 @@
 }
 
 .serif {
-  font-family: Georgia, Cambria, Times New Roman, serif;
+  font-family: 'Plantin Std Roman', Georgia, Cambria, Times New Roman, serif;
+}
+
+.decorated {
+  font-family: 'Plantin Std Light Italic', Georgia, Cambria, Times New Roman, serif;
+  font-style: italic;
 }
 
 body, input, select {
@@ -19,17 +24,13 @@ body, input, select {
   box-sizing: border-box;
 }
 
-.decorated {
-  @extend .serif;
-  font-style: italic;
-}
-
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
+  line-height: 1em;
 }
 h2 {
-  font-size: 1.6em;
+  font-size: 2em;
 }
 h3 {
   @extend .decorated;

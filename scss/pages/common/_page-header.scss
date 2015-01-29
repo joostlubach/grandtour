@@ -7,16 +7,14 @@
   background-repeat: none;
 
   // Ensure aspect ratio of header image.
-  padding-top: 59.4976452%;
+  padding-top: 53.3751962%;
   position: relative;
 
-  // When the screen is wider, cap the height.
-  @include breakpoint($layout-max-width-px, min) {
-    padding-top: 0;
-    height: $layout-max-width-px * .594976452;
-  }
+  font-size: 1.45em;
 
-  margin-bottom: 2 * $huge-space;
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-bottom: 3 * $huge-space;
 
   .overlay {
     @include fill;
@@ -26,21 +24,23 @@
   select.region {
     position: absolute;
     top: 10%;
-    left: 80px;
+    left: 10%;
+    font-size: inherit;
   }
 
   .content {
     position: absolute;
 
-    left: 80px;
-    top: 25%;
+    left: 10%;
+    top: 15%;
 
-    max-width: 21em;
+    max-width: 25em;
 
     h1 {
       margin-bottom: 0.2em;
     }
     h2 {
+      font-size: 1.6em;
       margin-bottom: 0.4em;
     }
     p {
@@ -51,13 +51,14 @@
 
   .social {
     position: absolute;
-    top: 0; right: 75px + $small-space;
+    top: 0; right: 15%;
+
+    font-size: 1.2em;
 
     a {
-      @extend .iconic-button;
       display: block;
       float: left;
-      padding: 8px 2px;
+      padding: $small-space 0.4em;
     }
 
     a.facebook:hover {
@@ -81,7 +82,7 @@
       background: $red;
       display: block;
       margin-bottom: 2px;
-      width: 32px;
+      width: 58px;
       padding: 2px;
       line-height: 1em;
 
@@ -89,7 +90,7 @@
       font-weight: 400;
       text-align: center;
       i {
-        font-size: 28px;
+        font-size: 50px;
       }
       span {
         display: block;
@@ -104,11 +105,13 @@
 
   .bottom {
     position: absolute;
-    bottom: -20px;
-    height: 40px;
+    bottom: -27px;
+    height: 54px;
 
     left: 0; right: 0;
     text-align: center;
+
+    font-size: 0.9em;
 
     > * {
       margin-right: 2 * $huge-space;
@@ -141,16 +144,12 @@
     }
   }
 
-  .sections {
-    // bottom: -30px;
-  }
-
   .switzerland-logo {
     @extend .hide-text;
 
     position: absolute;
-    top: 0; right: 0;
-    width: 75px; height: 75px;
+    top: -6px; right: -6px;
+    width: 11.77%; height: 22%;
 
     background: url(../img/switzerland-logo.png) no-repeat;
     background-size: cover;
@@ -162,8 +161,8 @@
   .grandtour-logo {
     @extend .hide-text;
 
-    margin-left: -15px;
-    width: 32px; height: 40px;
+    margin-left: -32px;
+    width: 62px; height: 78px;
 
     background: url(../img/grandtour-logo.png) no-repeat;
     background-size: cover;
@@ -172,16 +171,36 @@
     }
   }
 
-  @include breakpoint(540px) {
+  @include breakpoint(1000px) {
+    font-size: 1.2em;
+    .menus a {
+      width: 50px;
+      i {
+        font-size: 43px;
+      }
+    }
+  }
+
+  @include breakpoint(600px) {
+    font-size: 1em;
+    .menus a {
+      width: 41px;
+      i {
+        font-size: 36;
+      }
+    }
+  }
+
+  @include breakpoint(800px) {
 
     padding-top: 0;
+    margin-top: 0; margin-right: 0;
+
 
     .content, select.region {
       position: relative;
       left: 0; right: 0;
       top: 0; bottom: 0;
-
-      font-size: 0.9em;
     }
 
     .bottom {
@@ -201,12 +220,15 @@
       position: relative;
       background: $red;
 
-      @include flex-row;
-
-      height: 50px;
+      height: 75px;
 
       a {
-        display: inline-block;
+        @include flex-col;
+        @include justify-content(center);
+        height: 75px;
+
+        float: left;
+
         margin-bottom: 0;
         margin-right: 2px;
       }
@@ -219,25 +241,37 @@
     }
 
     .social {
-      padding: 8px 0;
-      right: 50px + $small-space;
+      padding: 14px 0;
+      font-size: 24px;
+      right: 75px + $small-space;
     }
 
     .switzerland-logo {
-      width: 50px; height: 50px;
+      top: 0; right: 0;
+      width: 75px; height: 75px;
     }
   }
 
   html.no-flexbox.no-flexboxlegacy & {
-    @include breakpoint(540px) {
+    @include breakpoint(800px) {
       .menus {
         padding: 4px;
       }
     }
   }
 
+  // When the screen is wider, cap the height.
+  @include breakpoint($layout-max-width-px, min) {
+    padding-top: 0;
+    height: $layout-max-width-px * .533751962;
+
+    .switzerland-logo {
+      width: 150px; height: 150px;
+    }
+  }
+
   @include breakpoint($layout-min-width-px) {
-    width: $layout-min-width-px;
+    width: $layout-min-width-px - 6px;
   }
 
 }

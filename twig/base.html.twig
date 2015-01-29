@@ -20,6 +20,19 @@
 
     {% block head %}
     {% endblock %}
+
+    <script type="text/javascript">
+        (function() {
+            var path = '//easy.myfonts.net/v2/js?sid=213487(font-family=Plantin+Std+Roman)&sid=213493(font-family=Plantin+Std+Headline+Medium+Condensed)&sid=213499(font-family=Plantin+Std+Light)&sid=213501(font-family=Plantin+Std+SemiBold)&key=AdpVColSWm',
+                protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+                trial = document.createElement('script');
+            trial.type = 'text/javascript';
+            trial.async = true;
+            trial.src = protocol + path;
+            var head = document.getElementsByTagName("head")[0];
+            head.appendChild(trial);
+        })();
+    </script>
   </head>
 
   <body {% block body_attrs %}{% endblock %}>

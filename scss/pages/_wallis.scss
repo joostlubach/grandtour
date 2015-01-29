@@ -1,5 +1,9 @@
 #page-wallis {
 
+  #page-header header img {
+    width: 156px; height: 100px;
+  }
+
   .side-by-side {
     position: relative;
     margin-bottom: $huge-space;
@@ -55,11 +59,6 @@
       }
     }
 
-  }
-
-  .section-header {
-    margin-left: $huge-space;
-    margin-right: $huge-space;
   }
 
 }

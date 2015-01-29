@@ -23,8 +23,13 @@
       </select>
 
         <div class="content">
-          <h1>Wallis</h1>
-          <h2>Natuur, zon en wijn</h2>
+          <header>
+            <h1>
+              Wallis
+              <img src="img/wallis.png" alt="Wallis" />
+            </h1>
+            <h2>Natuur, zon en wijn</h2>
+          </header>
           <p class="decorated">
             Uitdagende vierduizenders als Jungfrau en Matterhorn in zowel het noorden als
             het zuiden van het kanton, het prachtige en vruchtbare Rhônedal en de grootste
@@ -36,22 +41,22 @@
     {% block bottom %}
       <nav class="bottom sections">
         <a href="#" class="">
-          <i class="shield40 shield40-scenery"></i>
+          <i class="shield-multi shield-multi-scenery"></i>
           <span>Zien</span>
         </a>
 
         <a href="#" class="">
-          <i class="shield40 shield40-food"></i>
+          <i class="shield-multi shield-multi-food"></i>
           <span>Eten</span>
         </a>
 
         <a href="#" class="">
-          <i class="shield40 shield40-sites"></i>
+          <i class="shield-multi shield-multi-sites"></i>
           <span>Doen</span>
         </a>
 
         <a href="#" class="selected">
-          <i class="shield40 shield40-lodging"></i>
+          <i class="shield-multi shield-multi-lodging"></i>
           <span>Slapen</span>
         </a>
       </nav>
@@ -65,8 +70,6 @@
       {% include 'pages/wallis/map.html.twig' %}
       {% include 'pages/wallis/points_of_interest.html.twig' %}
     </div>
-
-    <h2 class="section-header">Bekijk ook</h2>
 
     <div class="layout-center">
       {% include 'pages/wallis/blocks.html.twig' %}

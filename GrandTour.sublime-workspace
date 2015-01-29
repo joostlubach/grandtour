@@ -641,45 +641,47 @@
 	],
 	"file_history":
 	[
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/common/_page-header.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/map.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/base.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/page_header.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/points_of_interest.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/wallis/_points-of-interest.scss",
+		"/Users/joost/Work/projects.yaml",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/home/map.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_home.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_wallis.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/all.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/advanced_legacy.rst",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_map.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/map.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_variables.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/common/_page-header.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_layout.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/wallis/_points-of-interest.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/points_of_interest.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_styles.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/page_header.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/_wallis.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/map.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/common/_blocks.scss",
+		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/blocks.html.twig",
+		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/doc/advanced_legacy.rst",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/LICENSE",
 		"/Users/joost/Work/Projects/G+J/GrandTour/config/compass.rb",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/js/jquery.scrollintoview.min.js",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/js/jquery-ui.min.js",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/blocks.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/map.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_headers.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/js/modernizr.min.js",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent_in_a_block.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/phpunit.xml.dist",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/pages/common/_blocks.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/header.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/js/jquery.min.js",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/Node/Expression/Binary/BitwiseAnd.php",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_shields.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_points-of-interest.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/list.html.twig",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_styles.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/use/multiple_aliases.test",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/_misc.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/vendor/twig/twig/lib/Twig/LexerInterface.php",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_blocks.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_page-header.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_header.scss",
-		"/Users/joost/Work/Projects/G+J/GrandTour/scss/elements/_map.scss",
 		"/Users/joost/Work/Projects/G+J/GrandTour/www/js/marker-with-label.min.js",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/wallis/blocks.html.twig",
 		"/Users/joost/Work/Projects/G+J/GrandTour/twig/pages/home/related.html.twig",
@@ -766,9 +768,7 @@
 		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/mout/object/forOwn.js",
 		"/Users/joost/Work/Projects/Wijnen/App/scss/app.scss",
 		"/Users/joost/Work/Projects/Wijnen/App/www/lib/ionic/js/ionic.bundle.js",
-		"/Users/joost/Work/Projects/Wijnen/App/js/utils.js",
-		"/Users/joost/Work/Projects/Wijnen/App/platforms/ios/cordova/apple_osx_version",
-		"/Users/joost/Work/Projects/Wijnen/App/node_modules/bower/node_modules/.bin/opn"
+		"/Users/joost/Work/Projects/Wijnen/App/js/utils.js"
 	],
 	"find":
 	{
@@ -779,6 +779,8 @@
 		"height": 119.0,
 		"where_history":
 		[
+			"*",
+			"*.scss",
 			"*",
 			"*.scss",
 			"App/js/**.js",
@@ -904,8 +906,6 @@
 			"*",
 			"a*",
 			"*.scss",
-			"*",
-			"*.scss",
 			"*"
 		]
 	},
@@ -914,6 +914,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"shieldLabel",
+			"20px",
+			"15px",
+			":not",
 			"2",
 			"360",
 			"left-side",
@@ -1037,11 +1041,7 @@
 			"data-missing",
 			"value",
 			"image",
-			"/banners",
-			"422",
-			"event",
-			"items",
-			"item"
+			"/banners"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1247,6 +1247,62 @@
 		"selected_items":
 		[
 			[
+				"base",
+				"twig/base.html.twig"
+			],
+			[
+				"shiel",
+				"scss/elements/_shields.scss"
+			],
+			[
+				"pointsof",
+				"twig/pages/wallis/points_of_interest.html.twig"
+			],
+			[
+				"layoutscss",
+				"scss/_layout.scss"
+			],
+			[
+				"varia",
+				"scss/_variables.scss"
+			],
+			[
+				"pageheader",
+				"scss/pages/common/_page-header.scss"
+			],
+			[
+				"wallisscss",
+				"scss/pages/_wallis.scss"
+			],
+			[
+				"header.scs",
+				"scss/pages/common/_page-header.scss"
+			],
+			[
+				"blocksscss",
+				"scss/pages/common/_blocks.scss"
+			],
+			[
+				"map.html",
+				"twig/pages/home/map.html.twig"
+			],
+			[
+				"home.scs",
+				"scss/pages/_home.scss"
+			],
+			[
+				"map.scss",
+				"scss/elements/_map.scss"
+			],
+			[
+				"styles",
+				"scss/_styles.scss"
+			],
+			[
+				"map",
+				"twig/pages/wallis/map.html.twig"
+			],
+			[
 				"wallisscs",
 				"scss/pages/_wallis.scss"
 			],
@@ -1273,18 +1329,6 @@
 			[
 				"pointsofin",
 				"scss/pages/wallis/_points-of-interest.scss"
-			],
-			[
-				"pointsof",
-				"twig/pages/wallis/points_of_interest.html.twig"
-			],
-			[
-				"varia",
-				"scss/_variables.scss"
-			],
-			[
-				"base",
-				"twig/base.html.twig"
 			],
 			[
 				"map.hml",
@@ -1339,20 +1383,8 @@
 				"scss/elements/_blocks.scss"
 			],
 			[
-				"styles",
-				"scss/_styles.scss"
-			],
-			[
-				"header.scs",
-				"scss/elements/_header.scss"
-			],
-			[
 				"style.scss",
 				"scss/_styles.scss"
-			],
-			[
-				"blocksscss",
-				"scss/elements/_blocks.scss"
 			],
 			[
 				"shieldsscs",
@@ -1639,10 +1671,6 @@
 				"src/Nos/Bundle/AdminBundle/Resources/private/scss/app/styles/_modal.scss"
 			],
 			[
-				"layoutscss",
-				"src/Nos/Bundle/AdminBundle/Resources/private/scss/app/_layout.scss"
-			],
-			[
 				"variable",
 				"src/Nos/Bundle/AdminBundle/Resources/private/scss/app/_variables.scss"
 			],
@@ -1729,34 +1757,6 @@
 			[
 				"nosop",
 				"src/Nos/Bundle/AdminBundle/Controller/NosOp3Controller.php"
-			],
-			[
-				"nosop3contr",
-				"src/Nos/Bundle/AdminBundle/Controller/NosOp3Controller.php"
-			],
-			[
-				"eventc",
-				"src/Nos/Bundle/AdminBundle/Controller/EventsController.php"
-			],
-			[
-				"eventimageform",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Events/image_form.html.twig"
-			],
-			[
-				"services.yml",
-				"src/Nos/Bundle/AdminBundle/Resources/config/services.yml"
-			],
-			[
-				"eventtype",
-				"src/Nos/Bundle/AdminBundle/Form/Type/EventImageType.php"
-			],
-			[
-				"agendaitem",
-				"src/Nos/Bundle/AdminBundle/Form/Type/SportAgendaItemType.php"
-			],
-			[
-				"sportagenda",
-				"src/Nos/Bundle/AdminBundle/Resources/views/Sport/agenda.html.twig"
 			]
 		],
 		"width": 0.0

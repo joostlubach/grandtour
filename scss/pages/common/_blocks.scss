@@ -1,22 +1,22 @@
-$block-width: 172px;
-$block-height: 190px;
-$blocks-width: $block-width * 3 + 4 * $large-space;
+$block-width: 312px;
+$block-height: 344px;
+$blocks-width: $block-width * 3 + 4 * $huge-space;
 
 #blocks {
   @include clearfix;
 
   width: $blocks-width;
   margin: 0 auto;
-  padding-left: $large-space;
+  padding-left: $huge-space;
 
-  header {
-    margin-right: $large-space;
+  .section-header {
+    margin-right: $huge-space;
   }
 
   .block {
     display: block;
     float: left;
-    margin: 0 $large-space $large-space 0;
+    margin: 0 $huge-space $huge-space 0;
 
     width: $block-width;
     height: $block-height;
@@ -63,12 +63,12 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
       background-image: radial-gradient(rgba($red, 0.3), rgba($red, 0), rgba($red, 0));
     }
 
-    .shield {
+    .shield-mono {
       position: absolute;
-      top: $small-space; right: $small-space;
+      top: $large-space; right: $large-space;
     }
 
-    &:hover .shield {
+    &:hover .shield-mono {
       @extend :hover;
     }
 
@@ -81,20 +81,20 @@ $blocks-width: $block-width * 3 + 4 * $large-space;
   }
 
   .block-large {
-    width: $block-width * 2 + $large-space;
+    width: $block-width * 2 + $huge-space;
   }
 
   @include breakpoint($blocks-width) {
-    width: $block-width * 2 + 3 * $large-space;
+    width: $block-width * 2 + 3 * $huge-space;
   }
-  @include breakpoint($block-width * 2 + 3 * $large-space) {
+  @include breakpoint($block-width * 2 + 3 * $huge-space) {
     padding: 0 $huge-space;
     width: auto;
 
     .block {
       float: none;
       width: auto;
-      margin: 0 0 $large-space 0;
+      margin: 0 0 $huge-space 0;
     }
 
     .block-large {

@@ -1,111 +1,111 @@
 // Shield badge contains a number and has a simple background.
 b.shield {
   display: inline-block;
-  width: 17px; height: 23px;
+  width: 23px; height: 25px;
 
   text-align: center;
   line-height: 23px;
 
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAXCAYAAADtNKTnAAABNElEQVR4Ae2UMUpDQRCGB0ljqpSyvszM2yVo6RlS24u1gRQS8AJ6AC/hBcTexisIFrb2WqiFlaDOpyAPNZLVNg++3fwz/z95hN1IPCuefDMPfbdVO87q59nsMrgJ7ovaMzuaOn18+MmRl2z+UMxf/wpfIB1xVswOs+q2r/uWr7n7wAci0mNHU6ePDz85kM5UqWc5ZDmkYkhWe+JDSqkfSAV9cuSFi4XITTMKpIIROfK8ySmiNZsEUsGEHHnEHqKYXXPZZLGnh58ceWmaZjXE7XtBdRbIAszwkyPPkM9XCx6L2TiQXxjj6/4EwgJZ9YQG/2RFdRrID0zp48MfCLB0OcpqLx8mvwoO2pQ22NHU6ePDP2+I+HC4U9TuCHyFOv1AurB8g4PUmu0XswsOEzt63oFk+Tdv3o8EFJibTGkAAAAASUVORK5CYII=);
-  background-size: 17px 23px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAYAAADaILXQAAAAAXNSR0IArs4c6QAAAbRJREFUSA2tlk8rRFEYh+8QZUHIhlJTZMlK2MgXsLKxtVCyIVn4BFj4IJKytRSJZKVsxAo1Cw01C1L+PA/nTDFMM3Pvr56597znfR9nzB9ySWX6KU3BMAzBIHRBO7TBM5TgEa7hCi7gAG6hIiNUtsDmjxQ4r0dfkoMNWHMR8sT1EE7BU8kDeFpP7el9Fj3gM5NxmIROiNn0Zg887TbY1ASNxDnn9ejTm5yFxaiLDKJHud7kPiz6XGQQPcr1Jq9h0eIig+hR/urvyRfK+CJlkegpKS8GY3cWZhzRU1ReCNJ8uKa9RE9B+XmwjaW1/vKcKz8NxYmM5NHz5e1F+gYv4HdImjivR5/er+zz6Ntn4XvZ8KPzevSVM8udxUtoLlfru3HOeT36ymnl7gbcmCtX67txznk9+n4knv6Oar2/e/udqzh1/Al+/R6Hht1YrPFqv2Ln9fyZPNVHsHEFaol99juXh6qZYfc9MF+1M0ncj73O1ZRFujyN79fVfyasu2+f/XVlmW5P5fAOdIDx6tq6+0vQUKaZ8m+qogKsh6tr6+6niv9aHIHCiOsByCx+Dk7gx6evmv0TucN9Lbg7tB8AAAAASUVORK5CYII=);
+  background-size: 23px 25px;
 
   @include retina {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAtCAYAAADLEbkXAAACbElEQVR42u2YPYsTURSGb9ZGFAQjEpNMzjlzB8GPVkTEwsJGsFTBVrCwEG0s1s5G/AnbKloqKCK4LIiggogLNtqKFqKLIogIET/uU3lzs5PdmIxp5sAhl3vf874PM5nAxJVVt9vd5kUO5SJnvNjVQuxa+Hzg1V4Wou9Cr4T+GvoHzZo9ztCgZYZZPPDC042qVqu12TI7nPf0khe9V6h9DP27ig6QH8ggi0yyHVWIPgmCPqIZdT+APXbRxkx7NIjY29B3vNhl37OzoU8VmR61rh2wju2y7bbDnG2kWbPHGRq0zDCLB15jguhFL3Ik+mJNrfDEm4w1Qdx/qhqkBqlBapAapAapQWqQGqQMxIt+izc6nc6mqiHIiDNhcF7tTbyZt9taNQgZcSYMXJHnA5u93r6qQciIM2EIIHZ3EERPVw1CRpwJAyDzCd2NqkHISEDmXZ5l+wc2Vd8H7VyFHHNkxJkwcLDBq30ZOBA5XhUF3nEW2TA4yostJJfqWVUgeCdZC38Ps2ynF/2ZXJUT04bAM84gk+xBUtXbieiTqranBYEXnnEGmcPCtu72at+TF/KHvOlPCoEHXrE3WWSW3b8LiJJ7uIjRJBB4DPvK+VFzDS+6tArMoyzLuuNCMMNs6kcGWSOHRWRrIfpileHPucjJ9UKgZSb1wZuMVF8Oo7rM4HDrUy9yrGyWMzQls8t4j3tZm171PgYlpq9C6BVVPUizDvrXZXq88HT/WI1c5Fz0NI3dzOLhplEisodn3ov+Wi8A2jBzK31EpwW0N5jfXON/2T4atK7qajabW3J+rkWvh16hWbPHmZtRNehJTf4A+aC6ZBA8qScAAAAASUVORK5CYII=);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAyCAYAAAAjrenXAAAAAXNSR0IArs4c6QAAA8tJREFUaAXtmDtoFFEUhjeJhqgxaOKLYGyUpBIrBRWJb8FGEAu1ULCwUSxML0hKBYsUsbCytpYIQgQbOwWr+CCQoKKSKEYwURP9v3FmOZ7MjrObnZ0pPPDnvs4955s7dyazt6lUvbVqylapT+oN1aNytVF7WFdRmpG+hiV1NCm9CDWm8rX0XUptTSk8u+VzINQ+lUC3SPW0eQUD/rE0GuqtyqoMqGPSbYnV+JWTyA0DLIkLtUMON6V3Ul6wlfLCBBuMgbFVNkgPpe1Bz7//LMhlQor2KOUr6ZNk9zP7Gov2e1SuVd82KXo+KLdIzVIaey6nwzgekSpdKf1zEntvUDoorZDqbcQkNjnIRc4kJphLV2KcPqvvjnRUWik12shJbhhg8RcBc2nYDQyp3cZAQQwWmCz8MPuqzwGOqD3r+vJswvLAAfQC3uk6J127CM0JB9EFeIfr5M1QNPNMHYDzr9qad7JjedU9U8DsXz2tedEl5IXJPpxzrDjfCdZabKMgdc80D/i0g/MPqxvOpemZpgGfcijeyQ3n0vRMU/9XPOP7kGrFN2cMUUv4Hjcp2ONjrnOXaxehudNBBMx71WnfkS+dUxGaMFlGmIMvQX6o2oEuBgpisFg2WNt4q/D19UyyVqTt4llgnQUce/KnKP/dX67lX/Esf7GeFp+9HRNqRxeVJzoMsFg2WMvGD1l+3FqHQ+XR/CowWCYYYS2vKh336DB2ztTzqnoGGKPTgzITp1X+6laVRxtfIbffBTAuMs5YxiULf3mRV+M6yG1ZYIMx1q6r1zq/V7s91jPbTnKS27LAVtE2acTfnmsVvbMbIKeFhgm2RPOr/kXe6xJn1HdwvcKR04InrnaUPu42DUWDDSjJZaGr2q6X3OQFtYODxozByUEuCw5LalsuT/9FxlEvtzErI7Y/4oYBlqqsX94/JXv199VuqipKOmdiEtvmIjcMNZl/ugl8taZIyZMGNGyhqZO7ZuMjZ1SyQTmHOVNzxMUTiUVMm4OcS/7I61aQjy7wD7VPSks1YhDLQn9Qm5x1MQ7Z/a+kOfUdX0J05hLDQpODXHW1U4rmH9Zv6jtRQxbmMNdCE5scmdhZRfX7kffuoJRmT+KDr39XE5PYmdp5RfeJWbkRqTMhM2P42FWmTixiNsQuKIvf80CMS7tjCOhjDB8rYhCrobZH2d5IFoQ6K3hX6g5FPe4OMZcYudhGZX0keXjaM6HixpjD3FxtmbLfkOIA4/rwZU5hrF8kHNbEwdL3VMKnkNYsqosS//2iC6BOH2OFtzUivBWKet3tN15RugkHBhU+AAAAAElFTkSuQmCC);
   }
 }
 
 // Use a sprite image as these are multi-colored opaque icons.
-.shield {
-  background-image: url(../img/shields32.png);
+.shield-mono {
+  background-image: url(../img/shields-mono.png);
   @include retina {
-    background-image: url(../img/shields32@2x.png);
-    background-size: auto 128px;
+    background-image: url(../img/shields-mono@2x.png);
+    background-size: auto 108px;
   }
 
-  width: 32px; height: 32px;
+  width: 54px; height: 54px;
 }
 
-.shield-sites {
+.shield-mono-sites {
   background-position: 0 0;
   &:hover {
-    background-position: 0 -32px;
+    background-position: 0 -54px;
   }
 }
-.shield-food {
-  background-position: -32px 0;
+.shield-mono-food {
+  background-position: -54px 0;
   &:hover {
-    background-position: -32px -32px;
+    background-position: -54px -54px;
   }
 }
-.shield-scenery {
-  background-position: -64px 0;
+.shield-mono-scenery {
+  background-position: -108px 0;
   &:hover {
-    background-position: -64px -32px;
+    background-position: -108px -54px;
   }
 }
-.shield-lodging {
-  background-position: -96px 0;
+.shield-mono-lodging {
+  background-position: -162px 0;
   &:hover {
-    background-position: -96px -32px;
+    background-position: -162px -54px;
   }
 }
 
 // These are bigger and have more color options.
-.shield40 {
-  background-image: url(../img/shields40.png);
+.shield-multi {
+  background-image: url(../img/shields-multi.png);
   @include retina {
-    background-image: url(../img/shields40@2x.png);
-    background-size: auto 192px;
+    background-image: url(../img/shields-multi@2x.png);
+    background-size: auto 216px;
   }
 
-  width: 40px; height: 40px;
+  width: 54px; height: 54px;
 }
 
-.shield40-sites {
+.shield-multi-sites {
   background-position: 0 0;
   &:hover {
-    background-position: 0 -40px;
+    background-position: 0 -54px;
   }
   &.red {
-    background-position: 0 -80px;
+    background-position: 0 -108px;
   }
   &.red:hover {
-    background-position: 0 -120px;
+    background-position: 0 -162px;
   }
 }
-.shield40-food {
-  background-position: -40px 0;
+.shield-multi-food {
+  background-position: -54px 0;
   &:hover {
-    background-position: -40px -40px;
+    background-position: -54px -54px;
   }
   &.red {
-    background-position: -40px -80px;
+    background-position: -54px -108px;
   }
   &.red:hover {
-    background-position: -40px -120px;
+    background-position: -54px -162px;
   }
 }
-.shield40-scenery {
-  background-position: -80px 0;
+.shield-multi-scenery {
+  background-position: -108px 0;
   &:hover {
-    background-position: -80px -40px;
+    background-position: -108px -54px;
   }
   &.red {
-    background-position: -80px -80px;
+    background-position: -108px -108px;
   }
   &.red:hover {
-    background-position: -80px -120px;
+    background-position: -108px -162px;
   }
 }
-.shield40-lodging {
-  background-position: -120px 0;
+.shield-multi-lodging {
+  background-position: -162px 0;
   &:hover {
-    background-position: -120px -40px;
+    background-position: -162px -54px;
   }
   &.red {
-    background-position: -120px -80px;
+    background-position: -162px -108px;
   }
   &.red:hover {
-    background-position: -120px -120px;
+    background-position: -162px -162px;
   }
 }
