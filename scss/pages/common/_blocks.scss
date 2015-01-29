@@ -76,7 +76,13 @@ $blocks-width: $block-width * 3 + 4 * $huge-space;
 
   html.no-flexbox.no-flexboxlegacy & {
     .block {
-      padding-top: 10%;
+      display: table;
+
+      span {
+        display: table-cell;
+        width: 100%; height: 100%;
+        vertical-align: middle;
+      }
     }
   }
 
@@ -97,7 +103,7 @@ $blocks-width: $block-width * 3 + 4 * $huge-space;
 
     .block {
       float: none;
-      width: auto;
+      width: 100%;
       margin: 0 0 $huge-space 0;
     }
 

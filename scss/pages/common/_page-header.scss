@@ -253,8 +253,8 @@
 
   html.no-flexbox.no-flexboxlegacy & {
     @include breakpoint(800px) {
-      .menus {
-        padding: 4px;
+      .menus a {
+        padding: 12px 0;
       }
     }
   }
